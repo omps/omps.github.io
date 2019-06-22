@@ -3,8 +3,9 @@ layout:     post
 title:      "Goals 2019!!"
 subtitle:   "Goals to achieve in 2019"
 date:       "2018-12-22"
-header-img: "img/goals-2019.png"
+image: "assets/images/goals-2019.png"
 published: true
+featured: true
 ---
 
 ### Goals for 2019

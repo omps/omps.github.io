@@ -8,6 +8,7 @@ comments: true
 author: omps
 featured: true
 published: true
+image: assets/images/puppet-meta.png
 ---
 
 
