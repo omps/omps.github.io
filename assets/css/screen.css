@@ -10,8 +10,8 @@ pre{-moz-box-sizing:border-box;box-sizing:border-box;border:#E3EDF3 1px solid;wi
 .site-content{min-height:60vh;padding-top:1.5rem;margin-top:57px;transition:all 0.4s;}
 section{margin-bottom:20px;}
 section.recent-posts{margin-bottom:0;}
-.section-title h2{border-bottom:1px solid rgba(0, 0, 0, .125);margin-bottom:25px;font-weight:700;font-size:1.4rem;margin-bottom:27px;}
-.section-title span{border-bottom:1px solid rgba(0, 0, 0, .44);display:inline-block;padding-bottom:20px;margin-bottom:-1px;}
+.section-title h2{border-bottom:1px solid rgba(0, 0, 0, .125);margin-bottom:25px;font-weight:700;font-size:1.4rem;margin-bottom:27px;background-color: aliceblue;}
+.section-title span{border-bottom:1px solid rgba(0, 0, 0, .44);display:inline-block;padding-bottom:10px;margin-bottom:-1px;}
 .article-post ol,
 .article-post ul{margin-bottom:1.5rem;}
 .article-post ol ol,
