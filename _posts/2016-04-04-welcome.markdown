@@ -1,0 +1,19 @@
+---
+layout: post
+title: "welcome"
+date: 2016-04-04 21:18:01 +0530
+comments: true
+categories: 
+---
+
+For two years I wanted to write but was figuring out what and how. I think the impossible task was not to figure out, but to sit down and start writing.
+
+Finally, I make my mind and start finishing the stuff which I always wanted to finish. I have tidbits kept in here, which soon will be blogged.
+<!--more-->
+Its not really for anyone but for myself to keep me notes and help me see the progress.
+
+I have done a lot of migration on this blog. From wordpress to octopress to pelican then back to octopress. I think I will stay here with you. Octopress!!
+
+well and its just the beginning, I am glad I do not have a lots of posts to migrate.
+
+Others may soon follow.

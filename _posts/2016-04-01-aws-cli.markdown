@@ -1,0 +1,117 @@
+---
+layout: post
+title: Using AWS CLI
+author: Om Prakash Singh
+date: 2016-04-01
+category: How-to
+tags: aws, cli, linux
+comments: true
+---
+
+## Notes on using aws cli.
+
+### MY setup.
+I am using arch linux running a 32 bit system, kernel version 4.4.5
+
+I run an aws system on amazon cloud and beleive me i am always kind of get confused with the immense set of tools they have and most of the time with their data centres. I tend to mess up the data centre and have to browse through all the data centres to find where my ec2 instance is running. I finally decided to have a look at how the aws cli works.
+<!--more-->
+### aws-cli tool installation.
+For aws cli installation on arch linux its pretty simple. You can use yaourt to simple download and install it. I would not go much into how to install yaourt and aws through it. I would write about that sometime later, but for now trush google and arch wiki.
+
+``` yaourt aws-cli```
+
+it will ask a couple of questions, please keep checking and respond accordingly.
+
+### configure the aws-cli
+This is going to be a walk-through and I am doing it right now. Please bear if it look like random notes.
+
+### __Sign up for an AWS account.__
+Since I am already done with it. Here is the quick guide at amazon, which will help you in registering on for you.
+
+1. Open http://aws.amazon.com/, and then choose Create an AWS Account.
+
+   Follow the online instructions.
+
+2. Part of the sign-up procedure involves receiving a phone call and entering a PIN using the phone keypad.
+
+AWS sends you a confirmation email after the sign-up process is complete. At any time, you can view your current account activity and manage your account by going to http://aws.amazon.com and clicking My Account/Console.
+
+#### __To get your access key ID and secret access key__
+Amazon recommends we create a IAM account key instead of the root aws key, this will let us manage our console securly. I will prefer the IAM account key and here are the steps.
+
+1. Open the [IAM console](https://console.aws.amazon.com/iam/home?#home "ACCESS IAM CONSOLE").
+
+2. In the navigation pane, choose Users.
+
+3. Choose your IAM user name (not the check box).
+
+4. Choose the Security Credentials tab and then choose Create Access Key.
+
+5. To see your access key, choose Show User Security Credentials. Your credentials will look something like this:
+
+> Access Key ID: AKIAIOSFODNN7EXAMPLE
+> Secret Access Key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+Choose **Download Credentials**, and store the keys in a secure location.
+
+#### __Configure the CLI__
+1. This is quite simple
+
+    $ aws configure
+      AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
+      AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+      Default region name [None]: us-west-2
+      Default output format [None]: ENTER
+
+2. Well now its not a lot simple.
+The problem is the user which is configured doesn't have access to any policy and without any policy one cannot be able to run commands. I did the basic testing without any policy and well. this is what happened.
+
+    [~ (master)]$ aws ec2 create-security-group --group-name my-sg --description "My security group"
+
+    A client error (UnauthorizedOperation) occurred when calling the CreateSecurityGroup operation: You are not authorized to perform this operation.
+
+    [~ (master)]$ aws ec2 describe-instances --output table --region us-west-2
+
+    A client error (UnauthorizedOperation) occurred when calling the DescribeInstances operation: You are not authorized to perform this operation.
+
+So the smart thing to do is to go back and attach a policy to it.
+
+This is my first time, so without taking time going through the nifty details of what each policy meant. I just attached the **AdministratorAccess** policy.
+    {
+    "Version": "2012-10-17",
+        "Statement": [
+            {
+        "Effect": "Allow",
+            "Action": "*",
+                "Resource": "*"
+            }
+        ]
+    }
+
+
+Now, the commands work like a charm.
+
+    [~ (master)]$ aws ec2 create-security-group --group-name omps-sg --description "My security group"
+    {
+        "GroupId": "sg-51146e36"
+    }
+
+    [~ (master)]$ aws ec2 describe-instances --output table --region us-west-2
+    ------------------------------------------------------------------------------------
+    |                                 DescribeInstances                                |
+    +----------------------------------------------------------------------------------+
+    ||                                  Reservations                                  ||
+    |+----------------------------------------+---------------------------------------+|
+    ||  OwnerId                               |  855938437083                         ||
+    ||  ReservationId                         |  r-2ce7c3e9                           ||
+    |+----------------------------------------+---------------------------------------+|
+    |||                                   Instances                                  |||
+    ||+------------------------+-----------------------------------------------------+||
+    |||  AmiLaunchIndex        |  0                                                  |||
+    |||  Architecture          |  x86_64                                             |||
+
+and very long output. Trimmed the output to keep the page short.
+
+Thats it.
+
+I would probably write more about IAM Policies later.

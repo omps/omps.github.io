@@ -1,0 +1,133 @@
+---
+layout: post
+title: "Day 8 - Mark and The Region"
+date: 2015-12-26 21:24:47 +0530
+comments: true
+categories: emacs
+tags: #emacs, #30daychallenge, #day8
+---
+
+# Mark and the region<a id="sec-1" name="sec-1"></a>
+
+Many command in Emacs operate on parts of the current buffer, to specify the text for such commands, we need to select the text, by marking it at one end of it and move the point to the other end. This text between the point and the mark is called as "the region" or "the selection". This region always extend between the point and the mark, each time you move the point, the region changes.
+<!--more-->
+Setting the mark at the position also "activates" it. Emacs indicates the extent by highlighting the text within it, using the 'region' face. Further on customizing it can be found under <span class="underline">Face Customization</span>.
+
+Once the commands are run the region, Emacs automatically deactivates this region and turns off the highlighting; this can also be explicitly deactivate by typing 'C-g'. Movement commands <sethyperlink>  doesn't work on the region. The behaviour is known as Transient Mark mode. Disabling mark mode switched Emacs to an alternate behaviour. Also, when you mark something in one buffer, it doesn't have effect in anyother buffer, so while you come back you will see the mark still present at the same buffer at same location.
+
+Here are some commands for setting the mark; C is still the ctrl and M- is Meta or Alt or Esc key on your keyboard.
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">keybindings</th>
+<th scope="col" class="left">commands</th>
+<th scope="col" class="left">description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">C - SPC</td>
+<td class="left">set-mark-command</td>
+<td class="left">Set the mark at point and activate it</td>
+</tr>
+
+
+<tr>
+<td class="left">C - @</td>
+<td class="left">&#xa0;</td>
+<td class="left">The Same</td>
+</tr>
+
+
+<tr>
+<td class="left">C-x C-x</td>
+<td class="left">exchange-point-and-mark</td>
+<td class="left">set the mark at point and activate it and move point where the mark used to be.</td>
+</tr>
+
+
+<tr>
+<td class="left">Drag-Mouse-1</td>
+<td class="left">&#xa0;</td>
+<td class="left">Set the point and mark around the text you drag across.</td>
+</tr>
+
+
+<tr>
+<td class="left">Mouse-3</td>
+<td class="left">move-save-then-kill</td>
+<td class="left">Set the mark at point, then move point to where you click.</td>
+</tr>
+
+
+<tr>
+<td class="left">Shift and cursor motion keys</td>
+<td class="left">&#xa0;</td>
+<td class="left">set the mark at point if the mark is inactive, then move point</td>
+</tr>
+</tbody>
+</table>
+
+OK, so now we know how to mark the text, but why really I want to do it, and learn so many combinations, when it can simply be done by holding and moving the mouse around, remind me of selecting text in browser; well, some real line usage is: say, you want to select some text and make it uppercase, so just select that area of text using any of the above key bindings and run C-x C-u, and you see all the characters becoming uppercase, neat isn't it, I can use this same mark to remember the text, but ofcourse I can select the position of my text in the buffer too, it reminds me something like bookmark, so for an example in a text file or a code of more than 1000 lines, I encounter something interesting, but have to move ahead also, for this I only see 2 ways, either select and copy the text and save it in some place, or just remember it, the emacs remember function just does that.  I selected a region and do not want to do anything with it as such, but just remember the position of the mark in the buffer type so I type "C-SPC C-SPC" just does that, i.e remember my position, and C-u C-SPC later jumps back to the mark. I will speak more about the mark ring further in Today itself.
+
+Oh, now I know why I need it, but it may not be everytime I want to select the text and do something with it, so I activated the mark  by mistake using the key C-SPC and now wherever I move the cursor its just getting highlighted, and I am not sure what may happen if I type something, this is a time I really hate myself to be bought in, when I know how to enter into something, but do not know how to come out without making any unknown change. C-g comes to the rescue. It just is so cool, and a saviour isn't it. 
+
+Ah, there are endless commands in emacs, and if there aren't one you can always create one, its pretty simple. For eg. C-x C-x exchanges the positions of the point and the mark(I need to find out its practical use). And there are many ways too to set mark and selecting region
+for eg. I can use mouse by pressing the left mouse button and moving around the text; clicking the right mouse button set the mark at point i.e first you click the left mouse button which will set the mark, right click to the place till where you want to make selection; further to this you can set the mark and use the cursor command or arrow keys to select the text. These are so cool tricks, I so despartley want to make video lessons now, nevermind will try to do some video lessons later once my 30 Days challenge is over.
+
+*Notes:* 
+*1. By any chance if your C-SPC is not working try using C-@ or vice-versa, this is also bound to the set mark command. I am not sure, but then some keyboards might not support C-SPC.*
+
+## Marking objects like word, list, paragraph or page.<a id="sec-2" name="sec-2"></a>
+
+As we were taking earlier M-@ extend the mark on word and repeated invocation extend the region by advancing one word at a time and if the mark is active and located before point this same command moves the mark backward from its current position, one word at a time and while working with this we do not have to set the mark as well and it does accepts numeric arguments, so highlighting the next ten words would be C-u 10 M-@.
+
+The Numerical argument and repeated invocation works with all the command mentioned in the table, ofcourse, not the last one which marks the whole buffer, I doubt repeated invocation would start marking other buffers too ;).
+
+## Using the selected region and  Operating on the same<a id="sec-3" name="sec-3"></a>
+
+-   We can kill the region using C-w.
+-   We can copy the region M-w.
+-   Convert the case with C-x C-l or C-x C-u.
+
+*as its already covered in my previous days, so I will save some effort explaining again.*
+
+-   Undo change C-u C-/.
+-   Replace text withing using M-%. (Yay!! I was wishing I could find something like this.)
+-   Indent it with C-x TAB or C-M-\\
+-   Fill it as text with M-x fill-region.
+-   Check the spelling M-$.
+-   Evaluate the lisp code, if you have one M-x eval-region. (Got the similar tip sometime back on IRC, I was earlier while making changes to my .emacs. I was actually closing emacs and then opening again.)
+-   Save it in a register. C-x r s.
+-   and ofcourse save this region in some file. I will be coming to this soon.
+
+# The Mark Ring<a id="sec-4" name="sec-4"></a>
+
+The command C-SPC C-SPC is hndy when you want to use the mark to remember a poistion if I wish to remember and may return to it later. It pushes the current point into the mark ring, without activating the mark. To return to the position, we can use 'set-mark-command' with a prefix argument C-u C-SPC. This moves the point to where the mark was and deactivates the mark if it was active.Each subsequent C-u C-SPC jumps to a prior position stored in the mark ring.
+
+Each buffer has its own mark ring. All editing command use the current buffer's mark ring. In particular, C-u C-SPC always stays in the same buffer.
+
+## Marking texts globally<a id="sec-5" name="sec-5"></a>
+
+Apart from the ordinary mark ring that belongs to each buffer, Emacs has aloso a single mark mode "global mark ring". Each time the mark is set, this is recorded in the global mark ring in addition to the current buffer's own mark ring.
+
+## Shift Selection<a id="sec-6" name="sec-6"></a>
+
+If you hold down the shift key while typing a cursor motion command, the sets the mark before the moving point, so that the region extends from the original position of point to its new position. This feature is referred to as "shift-selection". It is similar to text is selected in other editors.
+
+To turn of shift selection, set 'shift-select-mode' to 'nil'
+
+## Disabling transient mark mode<a id="sec-7" name="sec-7"></a>
+
+Setting the mark activates and highlights the region, and is also called as Transient Mark mode. This is a minor mode and is enabled by default. It can be toggled with 'M-x transient-mark-mode' or with the 'Active Region Highlighting' menu item from the options menu.

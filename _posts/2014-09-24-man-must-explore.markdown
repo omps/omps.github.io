@@ -1,0 +1,58 @@
+---
+layout:     post
+title:      "Last Year with my body"
+subtitle:   "2018 Excercise goals."
+date:       "21-12-18"
+header-img: "img/goals-2019"
+published: false
+---
+
+<p>Ah! one year of practice, lethargy, loose focus, and weak determination<p>
+<p>I finally deciding to pursue what I always wanted to do. Loose KGs. This had been humongous task, I was off and on from several things, started practicing with yoga in the early 2017, and after 3 months of 3 days week yoga sessions and speding around 3000/- INR for yoga classes, I forgot to continue it further after the yoga classes and was back on to the track of doing nothing.<p>
+<p>Then, in the summers of April, started again with another passion of cycling, I started with my old Hero Hawk fixed gear bike, which soon started to disappoint me then encourgae me to cycle. I never thought I would be able to cycle back again, It again went back to garage not to be used again somehow I came in touch with Strava during that time, which has inspired me a lot by showing my progress daily as I make some this once again inspired me to pursue cycling again, In the meanwhile I was off and on with Yoga doing some days skipping some days. With Strava I started again cycling with my same Hero Hawk Bike, joined the local cycling group, encouraged people for group rides some times I didn't show up, sometimes no one showed up and eventually I made strava my friend, during that time I learnt a lot on cycling thorogh blog posts, you tube channels and from the cycling group seniors and realised that cycling is though a good excercise but it does need to have proper tyres, frames, saddles, gearing system for Middle Aged beginners and most importantly the bike fit, how it can help you challenege yourself and how it can practically discourage you again to cycle. But once the lesson learnt I am back on track. 2017 had been a tremendous year, I cycled a lot, I went on lot of group rides and participated in some races too(though never really planned to win any and just to get the feel) the same cycling fever gave me another hunch to participate in Marathons, My father already a marathon runner and has participated in many such events gave me enough inspiration to start particiating in Marathons, so welcome 2018, I registered my self for quite some Marathons still I was very slow, cycling did gave me stamina but not for running and I still weigh around 97 KGs so after all the hearsay about injuries in running and shin pain and all I slowed down with my Marathons and mostly ended up walking in those runs, further decided not to participate in any til my body becomes more flexible, then all this time I slowly continued with Surya Namaskars and Warm up in the morning, tried cycle to work on some days during rainy and summer seasons which too discouraged me a lot because of all the heat and visiblity in rainy season, basically the progress was very slow, I was an log distance rider and enjoyed riding also but I was not where getting closer to loosing any weight or building strenght because of this regular on and off.<p>
+
+<p>This all was not disappointing at all, during this period I had too health checkups done which was way better than last year with happily reducing to within the  Cholestorol Levels limit, so all in all It was going smoothly and I was very happy with the slow progress I was making.<p>
+
+<p>oh! and I forgot to tell you this is all I was doing without any significant diet change.<p>
+<p>So the chips and the smosas and vada pavs and Mc Donalds Burger and Pizzas were still doing their rounds, with weekend evening night parties with Friends and drinks. It was all so happy to give it up with my Cholestrol Levels down, with increased stamina, etc.<p>
+
+<p>Then came the time during 2018 Navratri, I took 9 days fast, I had gained some body weight and was not really looking forward to continue the same pattern, so pledged durning Navratri that I will eat less and cycle more, almost had planned to do cycle to work starting with every 3 days week and making it to 5 days week.<p>
+
+<p>Around the same time, I came across a challenge has started to loose weight, without thinking twice I made my mind to participate in this challenge, a team of 6 joined the challenge.<p>
+
+<p>I did my evalutation, Body Fat 42%, body Fat to reduce 42% :P<p>
+
+<p>Its time to excercise and reduce the body fat %, I was excercising but with this I got more focus, started excercising regularly, daily yoga, cycling and walking, also started treadmill walks and runs<p>
+
+<p>Took gym membership for 3 months, as got advise that strength training is eqaully important.<p>
+
+<p>November came, so the festivals and all the sweets and those puri and chole and mutter pulao<p>
+
+<p>in Mid November did another evaluation body fat 42% weight loss 1KG.<p>
+
+<p>was very happy with the weight loss, that finally I am achieving weight loss, then someone told, this weight loss is really bad, because you are not loosing your fat, but your muscle mass which helps burn fat, so if you loose muscles you will loose weight but its of not use. You will look the same.>p>
+
+<p>Advices flew in, so it was the protien which screwed up, Its difficult for vegeterians to get regular dose of protein, we being a vegeterian family difficult to get enough protein in diet though I eat eggs but because of all this fesitve season had to avoid on the eggs, but now its serious had to go on egg and egg only, so started religuously 4 egg whites daily regardless of gym or no gym.
+<p>
+
+<p> with regular gym and enough protein, i started to run as well and started to run almost around 30 mins regularly on my cardio days.<p>
+
+<p>almost around with 2 month of rigorous practice, gym, cycling and running I finally managed to loose around 4 Kgs weight and 1.5% body fat. Still the diet is same but have significantly dropped fried foods, junk food, aereated drinks and sugar.<p>
+<p>Live only on black coffee, fruits, homemade roti sabzi for lunch and milk for dinner<p>
+
+<p>lets see the progress in Jan.<p>
+<h2 class="section-heading">The Final Frontier</h2>
+
+<blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+
+
+<h2 class="section-heading">Reaching for the Stars</h2>
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
+</a>
+<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+
+<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
+

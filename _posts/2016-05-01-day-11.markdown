@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Day 11 - Fixing the common typos"
+date: 2016-05-01 13:01:44 +0530
+comments: true
+categories: emacs
+tags: #emacs, #30daychallenge, #day11
+googleplus_user: +OmPrakashomps
+published: false
+---
+
+While I am writing something, I tend to make typographical mistakes, spelling mistakes, and wonder how wonderful it would be for my editor to understand and fix it while it automatically can, and now its the default in most of the editors available to use today. Its an integral component of all the editors. But yeah I use emacs for development work and its so cool I never really want to use anything else while I am working with text, and yes most of our lives we do that only, work with text. Its easier to know you are being highlighted for the errors you commit, before you publish something and let the world read on to it and trust me that would really create a bad image for your blog page. For me since I do most of my editing and blogging work on emacs, I need to ensure what I am typing should be free from atleast spelling and grammatical errors and it needs to be fast as Emacs is with while writing. I do use flyspell-mode and I am quite dependent on that too.
+<!--more-->
+But I am sure I need more than that, moving around your text is essential and while I am working on my keyboard, it feels pretty annoying to reach out for the pointer device or well, simply the mouse to move across texts and similary you need to ensure that the errors on the way are being corrected or highlighted and while we are at it, we should be able to 
+
+
+### Undo
+This commands basically reverses chnage in the the buffer text. Every buffer in emacs records its changes seperately, and the undo command will only act on that buffer. 
+
+```lisp
+C-/
+C-x u
+C-_
+```
+
+these all form the undo commands. They undo the most recent change, and moves the point back to where it was before the change. Repetadely, running the commands will undo earlier and earlier chnages. Any command other than the undo command will break the sequence of the undo command and to reapply the changes you have undone. type any command which harmlessly breaks the sequence of undoing; then type the undo command to undo the undo command. Basically, redo. :) But if you want to continue undoing, without redoing, use ```M-x undo-only``` 
+
+If the buffer you are working on gets modified accidentaly, the easy way is to type ```C-/``` repetadly unless those start vanish from the status-bar. In an active region, the undo will work selectviley only to that region. But if the *Transient Mark Mode* is off, undo will work on entire buffer.
+
+The two variable of undo history are **undo-limit**  and **undo-strong-limit** these variables stores undo data for the buffer. the default values for these buffers are 80000 and 120000 respectively. once this limit is reached Emacs discards the oldest records from time and again.
+
+Emacs never discards the most recent change, unless it becomes bigger than the variable **undo-outer-limit** which has a value of 12,000,000. Once emacs reached here, then it discards the undo data, but will warn you about this. In case you feel you did not reach such undo data, but you got the warning, then its a bug and should be reported.
+### Transposing text.
+

@@ -1,0 +1,489 @@
+---
+layout: post
+title: "Day 9 - Cut, Copy, Paste"
+date: 2015-12-28 21:32:41 +0530
+comments: true
+categories: emacs
+tags: #emacs, #30daychallenge, #day9
+---
+
+As in my last post and coming posts I would be using org2blog to write content further to my blog sites and would further be writing about how to use customize it, in my later posts. This is a cool tool to use when you are writing and posting.
+
+In my earlier days of using computers, copy and pasting something was such an interesting thing to do and the most innovative thing possibly could happen to computers. we just copy things around and move on. I started using emacs some couple of years back, and using it fully only some months back. So many things I learnt and learning. Believe me today, I am amused to know the possiblities cut and paste does have. 
+<!--more-->
+
+In Emacs, killing means erasing the text and copying it into the "kill ring". "Yanking" means bringing it back. The generalized terms for these are cutting and paste, copy and paste. Killing and yanking a text are the most common ways to move or copy text within emacs.
+
+# Commands which remove text
+
+Most commands which erases text from the buffer saves it in the kill ring. These are known as "kill" commands. We usually on other editors or place also call it is cut. But Emacs, unlike other editors, stores several recents cuts and not just the last one, which makes killing a safe process, now I don't have to worry about loosing my text. Never felt this confident earlier while killing something. :) The kill ring is shared by all buffers , so the text that's killed is shared among all the buffers. 'C - /' (undo) to undo a kill comannd and bring the killed text back into the buffer, but will keep the killed buffer in the kill ring and this can also be used elsewhere.
+
+On graphical displays, killing some text back copies it to the system clipboard as well and then there are commands which kills the text but do not save it into the kill-ring are called as the delete command. 'C-d' (delete-char) and 'DEL' (delete-backward-character) will delete only one character at time, and those character which deletes only spaces or newlines, killing erase signigicant amount of nontrivial data and do a kill operation as mentioned above.
+
+###   Deletion
+This will erase the text and not saving in the kill ringh. In emacs, usually those command used for deletion, just delete a character at a time or whitspaces. Some of the delete commands to avoid future confusion.
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Keybindings</th>
+<th scope="col" class="left">Commands</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">DEL or</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="left">Backspace</td>
+<td class="left">delete-backward-char</td>
+<td class="left">Delete the previous character or text in the region</td>
+</tr>
+
+
+<tr>
+<td class="left">Delete</td>
+<td class="left">delete-foward-char</td>
+<td class="left">Delete the next character or the next in the region if it's active.</td>
+</tr>
+
+
+<tr>
+<td class="left">C-d</td>
+<td class="left">delete-char</td>
+<td class="left">Delete the next character.</td>
+</tr>
+
+
+<tr>
+<td class="left">M-\\</td>
+<td class="left">delete-horizontal-space</td>
+<td class="left">Delete spaces and tabs around point.</td>
+</tr>
+
+
+<tr>
+<td class="left">M-SPC</td>
+<td class="left">just-one-space</td>
+<td class="left">Delete space and tabs around point leaving just one space.</td>
+</tr>
+
+
+<tr>
+<td class="left">C-x C-o</td>
+<td class="left">delete-blank-lines</td>
+<td class="left">Delete blank lines aroung the current line.</td>
+</tr>
+
+
+<tr>
+<td class="left">M-^</td>
+<td class="left">delete-indentation</td>
+<td class="left">Join two lines by deleting the intervening newline, along with and indentation following it.</td>
+</tr>
+</tbody>
+</table>
+
+### Killing or cutting
+
+The simplest way to kill something is using the kill-command i.e. C-k (kill-line), this will invaribaly will remove anything from the point to the end of the line, the point is place where my cursor is, and everything from the cursor to the end of the line would be removed. If the cursor is at the end of the line, it kills the line ending the newline character, merging the next line into the current one; if point is at the beginning of the line, this leave the line blank.  Spaces and tabs are usually ignored while deciding the case to apply. As long as point is after the last visible character in the line, you can be sure that 'C-k' will kill the newline; hence to kill an entire non-blank line, go to the beginning of the line and type 'C-k' twice. This can also be done by giving the positive arguments to 'C-k', and with negative arguments it kill the previous lines before the point. 'C-k' cannot be used to kill a character instead use the deletion commands above. Another way to kill the line and its new line is C-S-backspace, it kills regardless of the position where it is.
+
+Killing a line acts as cutting line, and saving it into the kill-ring. Remember, killing a line can be recovered from the kill-ring, but not deleting the characters.
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Keybindings</th>
+<th scope="col" class="left">Commands</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">C-k</td>
+<td class="left">kill-line</td>
+<td class="left">Kill the rest of the line from the point.</td>
+</tr>
+
+
+<tr>
+<td class="left">C-S-backspace</td>
+<td class="left">kill-whole-line</td>
+<td class="left">Kill an entire line at once.</td>
+</tr>
+
+
+<tr>
+<td class="left">C-w</td>
+<td class="left">kill-region</td>
+<td class="left">Kill the region as the name suggets.</td>
+</tr>
+
+
+<tr>
+<td class="left">M-w</td>
+<td class="left">kill-ring-save</td>
+<td class="left">Copy the region into the kill ring.</td>
+</tr>
+
+
+<tr>
+<td class="left">M-d</td>
+<td class="left">kill-word</td>
+<td class="left">kill the next word.</td>
+</tr>
+
+
+<tr>
+<td class="left">M-DEL</td>
+<td class="left">backward-kill-word</td>
+<td class="left">Kill one word backwards</td>
+</tr>
+
+
+<tr>
+<td class="left">C-x DEL</td>
+<td class="left">backward-kill-sentence</td>
+<td class="left">Kill back to the beginning of sentence.</td>
+</tr>
+
+
+<tr>
+<td class="left">M-k</td>
+<td class="left">kill-sentence</td>
+<td class="left">Kill to the end of sentence.</td>
+</tr>
+
+
+<tr>
+<td class="left">C-M-k</td>
+<td class="left">kill-sexp</td>
+<td class="left">Kill the following balanced sexp.</td>
+</tr>
+
+
+<tr>
+<td class="left">M-z CHAR</td>
+<td class="left">zap-to-char</td>
+<td class="left">Kill through the next occurence of CHAR.</td>
+</tr>
+</tbody>
+</table>
+
+M-w and C-w are commonly used commands, which kils text in the region and save it in kill-ring. M-w is the emacs copy command. The command M-z combines killing with searching, it read a character and kill from point up to the next occurence of that character in the buffer. A numeric argument would act as a repeat count; a negative argument meant search the text backward and kill text before point.
+
+The are certain buffers which contain 'read-only text' which cannot be modified and therefore cannot be killed, but the kill command still works. they move over text and save it into the kill-ring, without actually deleting the buffer. Normall, they will beep and display error message if this will happen. There may be times when we copy the similar text again, but if we change the varibale 'kill-do-not-save-duplicates' to a non-nil value, identical subsequent killls would yeild a single kill-ring entry, without duplication.
+
+# Commands which insert text
+
+It simply means pasting, and for theory, "Yanking means reinserting text previously killed." 
+
+The basic yanking command is 'C-y' (yank). It inserts the most recent kill, leaving the cursor at the end of the inserted text. It also sets the mark at the beginning of the inserted text, without activating it; this lets jumping to the posisition eaisly with 'C-u C-SPC'. With 'C-u C-y' it does exact opposite which means leaving the cursor in the front of the inserted text and sets the mark at the end. ON graphical display the yank command checks the clipboard if any other application has placed any text and is more recently than the last emacs kill.
+
+### The kill ring
+
+The kill ring is a list of blocks of text that were previously killed. There is only one kill ring shared by all buffers, so we can kill(cut) text from one buffer and yank(paste) it in another buffer. The maximum no. of buffer stored in kill ring is controlled by the variable 'kill-ring-max'. The default is 60. Emacs cycles the kill ring by removing the older entries if we reach the limit. The actual contents of the kill ring are stored in buffer 'kill-ring' and can be viewed using 'C-h v kill-ring'
+
+### Yank(paste)ing earlier kills
+
+Numeric arguments can be used to yank a text that is no longer the most recent. If you remeber the kill entry you can eaisly yank it back. If you don't remember you can use 'M-y' (yank-pop) command to cycle through the possiblities. If the previous command was yank command, 'M-y' takes the text that was yanked and replaces it with the txt of the next-to-the-last kill, first use C-y to yank the last kill and then use M-y to replace it with the previous kill.
+
+### Appending kills
+
+If two or more kill commands are run in a row, combines their text into a single entry n the kill ring, so a single 'C-y' yanks all the text as a unit. Basically the commands that kill forward from point add onto the end of the previous killed text. Any sequence of mixed forward and backward kill commands puts all the killed text into one entry without rearrangement and Numeric arguments do not break the sequence of appending kills.
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Keybindings</th>
+<th scope="col" class="left">Commands</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">C-y</td>
+<td class="left">yank</td>
+<td class="left">yank(paste) the last kill in the buffer</td>
+</tr>
+
+
+<tr>
+<td class="left">M-y</td>
+<td class="left">yank-pop</td>
+<td class="left">replace the text just yanked with an earlier batch of killed text</td>
+</tr>
+
+
+<tr>
+<td class="left">C-M-w</td>
+<td class="left">append-next-kill</td>
+<td class="left">Cause the following command if it is a kill command to append to previous kill</td>
+</tr>
+</tbody>
+</table>
+
+# Cut and paste in X
+
+I have covered enough about copying, cutting and  pasting of the text, these all work expeceted in the terminal window, certain further operations are added while we are working with emacs GUI, they mainly involve usage of the OS clipboard along with the kill-ring. On a graphical display it eases us in transferring the data among other applications using clipboard. On X. two other similar facilities are available, known as primary selection and secondary selection, emacs running on the graphical system integrate with these facilities. Emacs by default uses UTF-8 encoding for interprogram text transfers. If you are not happy with the text you pasted(well, I meant the encoding here.) another coding system can be specified 'C-x RET x' or 'C-x RET X'. Let me briefly go through the available facilities.
+
+### Clipboard
+
+Its a facility that most graphical applications use for "cutting and pasting", when it exists emacs is going to use it for its kill and yank commands. When some text is killed or copied to kill-ring, the text is also placed in the clipboard. Usually, emacs wipes the clipboard clean before putting its contents in there, though this behavior can be modified by setting variable 'save-interprogram-paste-before-kill' to t. This will allow emacs to first save the contents of the clipboard to its kill-ring before deleting it from the clipboard, preventing you from loosing critical data. Yank commands too uses the clipboard, so if someother program is using the clipboard.
+
+### The Temp text selection or the Primary Selection
+
+When in X, there is a primary selection containing the last stretch of text selected, usually by dragging the mouse. This is usually seperate from the clipboard. The contents in this selection are changed over every new selection, whereas the clipboard changes is only possible by cutting, copying and pasting. Under X, when the region is active (i.e when primary selection is made or in other words the text is selected by dragging or clicking the mouse or by keyboard commands and moving point.)
+
+### The Secondary selection
+
+The X Window system provides a second facility known as the secondary selection. 
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Mouse binding</th>
+<th scope="col" class="left">Command</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">M-Drag-Mouse-</td>
+<td class="left">mouse-set-secondary</td>
+<td class="left">With one end at the place where you press down the button, and the other end at the place where you release it. This text is highlighted using the \`secondary-selection\` face, as you drag. The windows scrolls automatically if you drag the mouse off the top or bottom of the window</td>
+</tr>
+
+
+<tr>
+<td class="left">M-Mouse-1</td>
+<td class="left">mouse-start-secondary</td>
+<td class="left">set one endpoint for the secondary selection.</td>
+</tr>
+
+
+<tr>
+<td class="left">M-Mouse-3</td>
+<td class="left">mouse-secondary-save-then-kill</td>
+<td class="left">Set the secondary selection, with one end at the position clicked and the other at the position specified with M-Mouse-1</td>
+</tr>
+
+
+<tr>
+<td class="left">M-mouse-2</td>
+<td class="left">mouse-yank-secondary</td>
+<td class="left">Insert the secondary selection where you click, placing point at the end of the yanked text</td>
+</tr>
+</tbody>
+</table>
+
+## Accumulating text
+
+The text can be moved by killing or yanking, but there are other ways that are also convinient methods for copying one block of text in many places, or for copying many scattered blocks of text in one place.
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Commands</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">M-x append-to-buffer</td>
+<td class="left">Apend region to the contents of a specified buffer</td>
+</tr>
+
+
+<tr>
+<td class="left">M-x prepend-to-buffer</td>
+<td class="left">prepend region to the contents of a specified buffer</td>
+</tr>
+
+
+<tr>
+<td class="left">M-x copy-to-buffer</td>
+<td class="left">Copy regions into a specified buffer, deleting that buffers old contents.</td>
+</tr>
+
+
+<tr>
+<td class="left">M-x insert-buffer</td>
+<td class="left">Insert the content of a specified buffer into current buffer at point.</td>
+</tr>
+
+
+<tr>
+<td class="left">M-x append-to-file</td>
+<td class="left">Append region to the contents of a specified file at the end.</td>
+</tr>
+</tbody>
+</table>
+
+M-x append-to-buffer, this reads the buffer name, then inserts a copy of the region into the buffer specified. If you specify non-existent buffer, \`append-to-buffer\` creates the buffer. The text is inserted whenever point is in that buffer. 
+
+Point in that buffer is left at the end of the copied text, so successive uses of \`append-to-buffer\` accumulate the text in the specified buffer in the same order as they were copied.  \`prepend-to-buffer\` is just like \`append-to-buffer\` except that point in the other buffer is left before the copied text, so successive prepending happens in the reverse order.
+
+As it can append to buffer it can also accumulated the text directly to the file with 'M-x appened-to-file" only with the files which are not yet being visited to the file. because if we add it to the file we are editing in Emacs, would chnage the file behind Emacs's back and you can loose your precious editing.
+
+## Rectangles
+
+"Rectangle" commands operate on rectangular areas of the text: and all of the characters between certain pair of columns, in a certain range of lines. In Emacs there are commands to operate on these rectangular areas, i.e to kill, yank and delete them off. These commands are useful with text in multicolumn formats, and for changing text into or out of such formats.
+
+To specify a rectangle for a command to work on, set the mark at one corener and point at the opposite corener. This is called as the region-rectangle. If point and mark are in the same column, the rectangle region is considered empty.
+
+The rectangle region is controlled in much similar way as the region  is controlled. But remember that a given combination of point and mark values can be interpreted as a region or as a rectangle.
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key bindings</th>
+<th scope="col" class="left">Command</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">C-x r k</td>
+<td class="left">kill-rectangle</td>
+<td class="left">kill the text of the rectangle region, and saving its contents to the "last-killed-rectangle"</td>
+</tr>
+
+
+<tr>
+<td class="left">C-x r M-w</td>
+<td class="left">copy-rectangle-as-kill</td>
+<td class="left">Save the text of the region-rectangle as the last-killed-rectangle.</td>
+</tr>
+
+
+<tr>
+<td class="left">C-x r d</td>
+<td class="left">delete-rectangle</td>
+<td class="left">Deletes the text of the region rectangle. The delete command works too.</td>
+</tr>
+
+
+<tr>
+<td class="left">C-x r y</td>
+<td class="left">yank-rectangle</td>
+<td class="left">As the name suggests, it yanks the rectangle.</td>
+</tr>
+
+
+<tr>
+<td class="left">C-x r o</td>
+<td class="left">open-rectangle</td>
+<td class="left">Insert blank space to fill the space of the region-rectangle.</td>
+</tr>
+
+
+<tr>
+<td class="left">C-x r N</td>
+<td class="left">rectangle-line-numbers</td>
+<td class="left">Insert line numbers along the left edge of the region rectangle.</td>
+</tr>
+
+
+<tr>
+<td class="left">C-x r c</td>
+<td class="left">clear-rectangle</td>
+<td class="left">CLear the region-rectangle by replacing all of its contents with spaces.</td>
+</tr>
+
+
+<tr>
+<td class="left">M-x delete-whitespace-rectangle</td>
+<td class="left">&#xa0;</td>
+<td class="left">Delete whitespaces in each of the lines on the specified rectangle.</td>
+</tr>
+
+
+<tr>
+<td class="left">C-x r t STRING <RET></td>
+<td class="left">string-rectangle</td>
+<td class="left">Replace rectangle contents with STRING on each line.</td>
+</tr>
+
+
+<tr>
+<td class="left">M-x string-insert-rectangle <RET> STRING <RET></td>
+<td class="left">&#xa0;</td>
+<td class="left">Insert string on each line of the rectangle.</td>
+</tr>
+</tbody>
+</table>
+
+## CUA Bindings
+
+Now, this is some interesting keybindings provided by emacs to its users who are migrating from windows or other editing systems. The command 'M-x cua-mode" sets up keybindings, that are compatible with the Common User Access (CUA) systems used in many other applications. When CUA mode is enabled the 'C-x', 'C-c', 'C-v', and 'C-z' invoke commands that cut (kill), copy, paste(yank), and undo respectively. The 'C-x' and 'C-c' work only on the active regions. Otherwise they still act as the prefix keys and the standard emacs commands like 'C-x C-c' still works. 
+
+To enter an Emacs command like \`C-x C-f' while the mark is active, use one of the following methods: either hold \`Shift' together with the prefix key, e.g., \`S-C-x C-f', or quickly type the prefix key twice,e.g., \`C-x C-x C-f'.
+
+CUA mode provides enhanced rectangle support with visible rectangle highlighting.  Use \`C-RET' to start a rectangle, extend it using the movement commands, and cut or copy it using \`C-x' or \`C-c'.  \`RET' moves the cursor to the next (clockwise) corner of the rectangle, so you can easily expand it in any direction.  Normal text you type is
+inserted to the left or right of each line in the rectangle (on the same side as the cursor).
+
+With CUA you can easily copy text and rectangles into and out of registers by providing a one-digit numeric prefix to the kill, copy, and yank commands, e.g., \`C-1 C-c' copies the region into register \`1', and \`C-2 C-v' yanks the contents of register \`2'.

@@ -1,0 +1,48 @@
+---
+layout:     post
+title:      "Goals 2019!!"
+subtitle:   "Goals to achieve in 2019"
+date:       "2018-12-22"
+header-img: "img/goals-2019.png"
+published: true
+---
+
+### Goals for 2019
+#### Targets I am planning to achieve in 2019.
+
+- [ ] 2019-01-13: Kharghar 10 KM Run.
+- [ ] 2019-02-17: Tiradhatu 10KM Marathon complete in 1 hour.
+- [ ] 2018-01-20: Tata Mumbai 10KM Marathon complete in 1hr 20mins.
+- [ ] July 2019: Complete one half marathon.
+- [ ] Indian Navy Half Marathon.
+- [ ] Register for Tata Mumbai Full Marathon for 2020.
+- [ ] Swim for 4 Kms in one hour.
+- [ ] Participate in BRMs.
+- [ ] Cycle to work: from Palava to Powai 3 days a week.
+- [ ] Cycte to work: from Palava to Ghansoli 2 days a week.
+- [ ] Strngth training twice a week.
+- [ ] Complete the Raffa challenege of 8 days starting from 25th December.
+
+### January
+- [ ] Kharghar 10KM Challenege
+- [ ] Ride to Shirdi from Palava.
+
+<!---
+<p>lets see the progress in Jan.<p>
+
+<h2 class="section-heading">The Final Frontier</h2>
+
+
+# <blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far to little for the next ten.</blockquote>
+
+
+# <h2 class="section-heading">Reaching for the Stars</h2>
+
+
+# <a href="#">
+#     <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
+# </a>
+# <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+
+# <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
+# -->
