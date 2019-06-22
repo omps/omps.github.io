@@ -4,6 +4,7 @@ title: Day 2 - The Emacs Real estate
 date: 2015-11-14 00:31
 category: emacs
 tags: #emacs, #day2, #30daychallenge
+author: omps
 ---
 #### The Emacs Real estate.
 
@@ -13,7 +14,7 @@ I would be mainly using a lot of images compared to lot of writing that, underst
 
 ##### The Screen
 
-Double clicking on the emacs icon does open up a GUI window and similarly typing it on command prompt from withing an X Windows system, I get the emacs as an editor with full flesh and bones, i actually means as an GUI application, like we see for other editors. And when  I do same while I am  on the command prompt with no X support, or with -nw or -t (with emacsclient, will write more about this in coming days.) i get the emacs taking up my entire terminal screen. We will call these frames and emace behaves almost similar in both these frames. It normally starts with just one frame, but many frames can be created. 
+Double clicking on the emacs icon does open up a GUI window and similarly typing it on command prompt from withing an X Windows system, I get the emacs as an editor with full flesh and bones, i actually means as an GUI application, like we see for other editors. And when  I do same while I am  on the command prompt with no X support, or with -nw or -t (with emacsclient, will write more about this in coming days.) i get the emacs taking up my entire terminal screen. We will call these frames and emace behaves almost similar in both these frames. It normally starts with just one frame, but many frames can be created.
 
 Each frame consist of several distinct regions. as shown in the picture below.
 
@@ -29,11 +30,11 @@ if you pause for more than a second in the middle of the command, you can see yo
 
 ###### Mode Line: Understanding the mode line.
 
-At the bottom of every window there is a mode line. 
+At the bottom of every window there is a mode line.
 The text displayed on the mode line has the following format
 cs:ch-fr buf        pos line (major minor)
 
-o cs  display the character set. 
+o cs  display the character set.
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -63,7 +64,7 @@ o cs  display the character set.
 </tbody>
 </table>
 
-o ch   this usually show 2 dashes 
+o ch   this usually show 2 dashes
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -153,13 +154,13 @@ o pos   where there is additional text above the top of the window or below the 
 
 o line   'L' Followed by the line no. at point.
 
-o major   Name of the major mode used in buffer, for eg. Text mode, Lisp Mode, Org Mode and so on. 
+o major   Name of the major mode used in buffer, for eg. Text mode, Lisp Mode, Org Mode and so on.
 
 o minor   minor mode are the list of enabled minor modes on top of major mode, for eg visual-line-mode, flyspell-mode
 
 ###### The Menu Bar - How to use.
 
-On the graphical display you can just use the mouse to open the menu bar, an arrow to the right of the menu denotes the menu having a sub menu. Many commands in menu bar have ordinary key bindings as well. 
+On the graphical display you can just use the mouse to open the menu bar, an arrow to the right of the menu denotes the menu having a sub menu. Many commands in menu bar have ordinary key bindings as well.
 
 On a text terminal menu bar can be opened using 'M-\`' or <F10>, or run the command tmm-menubar. Move around the menu bar using up and down arrow key, <RET> i.e enter key, to select the item or C-g to come out of the menu bar mode.
 

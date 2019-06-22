@@ -6,6 +6,8 @@ category: linux
 tags: arch, linux, hdisk, mutlilaptop
 comments: true
 published: true
+image: assets/images/arch.jpeg
+featured: true
 ---
 
 Found a old compaq laptop from previous life, this may be 8/10 years old. The laptop came with a working motherboard and a failed battery. Everything worked fine except the OS is not getting detected and the harddisk was with corrupt sectors. I happen to swap my Thinkpad 500GB IDE harddisk with an 120 GB SSD one. All the day tried to get multiple oses installing on to the USB drive and tried to boot the laptop with those multiple oses.
@@ -30,7 +32,7 @@ So even after doing all this the erros persisted.
 
 It seems I need to regenrate the initramfs
 
-By using the default configration as per the ```/etc/mkinitcpio.conf``` regenerated the initramfs. 
+By using the default configration as per the ```/etc/mkinitcpio.conf``` regenerated the initramfs.
 ```
 # mkinitcpio -g /boot/linux-custom2.img -k 3.3.0-ARCH
 ```
@@ -40,7 +42,7 @@ Incase if you happen to change or use an alternate configuration make a copy to 
 # mkinitcpio -c /etc/mkinitcpio-custom.conf -g /boot/linux-custom.img
 ```
 
-Well made some changes in grub.cfg file to use this new initramfs. 
+Well made some changes in grub.cfg file to use this new initramfs.
 
 rebooted the system and voilla all worked well in the default mode.
 
@@ -67,7 +69,7 @@ Documetaions for my broadcomm wireless device. https://wiki.archlinux.org/index.
 short way is
 1. Identify the drivers
 ```
-$ lspci -vnn -d 14e4: 
+$ lspci -vnn -d 14e4:
 ```
 
 2. install the drivers.

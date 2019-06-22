@@ -5,9 +5,9 @@ date: 2017-01-26 13:01:44 +0530
 comments: true
 categories: e-commerce
 tags: #ecommerce, #web-applications, #opencart, #ubuntu, #e-commerce
-googleplus_user: +OmPrakashomps
+author: omps
 published: true
-header-img: "img/opencartplusubuntu.png"
+image: "assets/images/opencartplusubuntu.jpg"
 ---
 
 
@@ -30,7 +30,7 @@ On the MySql Prompt. type the below commands. Please note the (`;`), these are f
 Create Database and grant user permissions.
 
     create database webstore;
-    grant all on webstore.* to 'opencart' identified by 'OC@123'; 
+    grant all on webstore.* to 'opencart' identified by 'OC@123';
     flush privileges;
 
 
@@ -69,5 +69,3 @@ Once you have completed the installation, be sure to delete the `install` direct
     rm -rf /srv/www/example.com/public_html/install
 
 Congratulations! You are now ready to manage your own online storefront!
-
-
