@@ -6,7 +6,7 @@ date:       2017-03-23
 author:     "omps"
 alias:      ['google-cloud-platform-resources']
 featured: true
-image: assets/images/google-cloud.jpg
+# image: assets/images/google-cloud.jpg
 published: true
 ---
 
