@@ -15,3 +15,14 @@
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endif %}
+
+
+
+[2019-06-23 11:48:03] ERROR `/assets/css/bootstrap.min.css.map' not found.
+[2019-06-23 11:48:04] ERROR `/assets/css/css' not found.
+[2019-06-23 11:48:04] ERROR `/assets/webfonts/fa-solid-900.woff2' not found.
+[2019-06-23 11:48:04] ERROR `/assets/webfonts/fa-solid-900.woff' not found.
+[2019-06-23 11:48:04] ERROR `/assets/webfonts/fa-solid-900.ttf' not found.
+[2019-06-23 11:48:07] ERROR `/testpost/assets/css/bootstrap.min.css' not found.
+[2019-06-23 11:48:08] ERROR `/testpost/assets/css/css' not found.
+[2019-06-23 11:48:08] ERROR `/testpost/assets/css/all.css' not found.

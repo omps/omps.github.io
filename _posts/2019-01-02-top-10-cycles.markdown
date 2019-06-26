@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Top 10 cycles you can buy in 2010"
+author: omps
+categories: [ Cycling, health ]
+image: assets/images/9.jpg
+featured: true
+published: false
+---
