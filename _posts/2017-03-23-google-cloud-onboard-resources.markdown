@@ -5,7 +5,7 @@ subtitle:   "Resources for learning more about google cloud platform."
 date:       2017-03-23
 author:     "omps"
 alias:      ['google-cloud-platform-resources']
-featured: true
+featured: false
 # image: assets/images/google-cloud.jpg
 published: true
 ---

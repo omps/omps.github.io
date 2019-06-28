@@ -4,7 +4,8 @@ title:      "Custom Domain + HTTPS + GITHUB + CLOUDFLARE"
 subtitle:   "Setting up HTTPS on a Custom domain hosted at Github Pages and secure it with Cloudflare."
 date:       "2019-06-22"
 image: "assets/images/cloudflare/https_ghpages_cloudflare.jpg"
-published: false
+published: true
+featured: true
 tags: ["Github", "Cloudflare", "HTTPS"]
 ---
 
@@ -143,4 +144,4 @@ While going through this is pretty simple, I must warn you that it will take aro
 [SEO game with HTTPS]:https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html
 [HTTPS is 70% faster]:https://samrueby.com/2015/01/26/why-is-https-faster-than-http/
 [Global CDN]:https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
-[follow this guide]:
+[follow this guide]:https://www.omps.in/github-pages.html
