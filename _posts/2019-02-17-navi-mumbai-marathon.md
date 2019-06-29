@@ -1,11 +1,12 @@
 ---
 layout:     post
-title:      "strength training"
-subtitle:   "Importance of strength training"
+title:      "Navi Mumbai Marathon."
+subtitle:   "navi mumbai marathon"
 date:       "2019-03-06"
+categories: [ RUNNING ]
 image: ""
 published: false
-tags: ["strength", "training", "fitness"]
+tags: ["strength", "training", "fitness", "running", "marathon"]
 ---
 
 What is Strength trainig.

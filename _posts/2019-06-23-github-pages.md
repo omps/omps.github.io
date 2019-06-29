@@ -11,7 +11,11 @@ featured: true
 ---
 
 # What is Github
-Github is a code hosting platform for collaboration and version control using git which is quite similar to SVN and Mercurial. Github allows us to work with other developers together on the projects. You can sign up for github at https://github.com
+Github is a code hosting platform for collaboration and version control using git which is quite similar to SVN and Mercurial.
+
+Github allows us to work with other developers together on the projects.
+
+You can sign up for github at https://github.com
 
 ![Github_account](https://www.w3schools.com/whatis/img_github_account.jpg)
 
@@ -133,14 +137,9 @@ Add, commit, and push your changes:
 
 …and you're done!
 
-
 Fire up a browser and go to https://username.github.io.
 
 Once this is done learn to [set your custom domain].
-
-
-
-
 
 [Git]:https://git-scm.com
 [git-scm]:https://git-scm.com/doc

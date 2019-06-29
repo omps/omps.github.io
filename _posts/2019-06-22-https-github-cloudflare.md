@@ -9,11 +9,11 @@ featured: true
 tags: ["Github", "Cloudflare", "HTTPS"]
 ---
 
-Google wants us to use https, they prioritize HTTPS over HTTP and when you are hosting your personal website/blog site on Github you should use https.
+Google wants us to use https to rank our site, they prioritise HTTPS over HTTP and when you are hosting your personal website/blog site on Github you should use https.
 
-Using CloudFlare DNS service with your Github custom domain will speed up your site since CloudFlare is going to cache your site and send the request from the nearest cached site.
+With CloudFlare DNS service and your Github custom domain this will speed up your site and make it load faster on the browser since CloudFlare is going to cache your site and service the request from the nearest cached site your site will load much faster.
 
-I have been at this point where I want to migrate from my Github Pages blog to https for the obvious advantages of using https like,
+I have been at this point where I want to migrate from my Github Pages blog from http to https for the obvious advantages of using https,
 
 - HTTPS is a [secure way to communicate] to your site.
 - [HTTPS is 70% faster].
@@ -22,7 +22,7 @@ I have been at this point where I want to migrate from my Github Pages blog to h
 **From [Github blog]**
 > HTTPS (most recognizable as the lock icon in your browser’s address bar) encrypts traffic between GitHub’s servers and your browser giving you confidence that the page you asked for is the page you’re reading, from the site you think it is, and that others can’t snoop on or modify its contents along the way.
 
-This required me to search a lot and finally find the solution on one of the Github issues hence making this ready guide for reference.
+This led me to search google and the solution was well hidden in on one of the Github issues hence I am making this ready guide for reference.
 
 Github has native support for `*.github.io` domains from 2016. They finally enabled https support for a custom domain in 2018 partnering with [Let's Encrypt] as the certificate authority.
 

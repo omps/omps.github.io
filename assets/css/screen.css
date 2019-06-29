@@ -65,7 +65,8 @@ span.post-read-more a:hover{color:rgba(0, 0, 0, .8);}
 .mediumnavigation .search-icon{margin-left:-40px;display:inline-block;margin-top:3px;cursor:pointer;}
 .mediumnavigation .navbar-brand img{max-height:30px;margin-right:5px;}
 .mainheading h1.sitetitle{font-family:Righteous;}
-.mainheading h1.posttitle{font-weight:700;margin-bottom:1rem;background-color:#454a4e;color:white;text-align:center;text-transform: uppercase;}
+.mainheading h1.posttitle{font-weight:700;margin-bottom:1rem;background-color: yellowgreen;color:white;text-align:center;text-transform: uppercase;}
+.mainheading h2.postsubtitle{font-weight:60;font-style:italic;margin-bottom:1rem;text-align:center;}
 .footer{border-top:1px solid rgba(0, 0, 0, .05) !important;padding-top:15px;padding-bottom:12px;font-size:0.8rem;color:rgba(0, 0, 0, .44);margin-top:50px;margin-bottom:62px;position:relative;background:#fff;}
 .link-dark{color:rgba(0, 0, 0, .8);}
 .article-post{font-family:Merriweather;font-size:1.1rem;line-height:1.84;color:rgba(0, 0, 0, .8);}
