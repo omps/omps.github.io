@@ -73,7 +73,7 @@ span.post-read-more a:hover{color:rgba(0, 0, 0, .8);}
 blockquote{border-left:4px solid #00ab6b;padding:0 20px;font-style:italic;color:rgba(0, 0, 0, .5);}
 .article-post p,
 .article-post blockquote{margin:0 0 1.5rem 0;}
-.featured-image{display:block;margin-bottom:1.5rem;}
+.featured-image{display:block;margin-bottom:1.5rem;margin-left: auto;margin-right: auto;width:auto;}
 .share{text-align:center;}
 .share p{margin-bottom:10px;font-size:0.95rem;}
 .share ul li{display:inline-block;margin-bottom:9px;}

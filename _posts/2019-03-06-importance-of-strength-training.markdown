@@ -3,6 +3,7 @@ layout:     post
 title:      "strength training"
 subtitle:   "Importance of strength training"
 date:       "2019-03-06"
+categories: [ IRONMAN ]
 image: ""
 published: false
 tags: ["strength", "training", "fitness"]
