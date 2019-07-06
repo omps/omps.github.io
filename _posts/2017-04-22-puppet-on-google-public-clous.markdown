@@ -7,7 +7,6 @@ category: Devops
 tags: puppet, googlecloud, automation, orchesteration
 comments: true
 author: omps
-featured: true
 published: true
 image: assets/images/puppet-meta.png
 ---

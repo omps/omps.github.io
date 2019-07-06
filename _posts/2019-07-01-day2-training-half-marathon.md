@@ -4,7 +4,7 @@ title: "Day Two - HM Training - 2019"
 subtitle: "My training schedule for Half Marathon."
 date: "2019-07-01"
 image: "assets/images/run/day2-running.png"
-published: fasle
+published: true
 categories: [ IRONMAN ]
 tags: ["running", "training", "ironman"]
 ---
@@ -12,7 +12,7 @@ This is not just another day. Its raining cats and dogs here, amid this heavy ra
 
 I know all this has nothing to do with running, then again this is all what happened the day which gave me time to go again for another 9 KM run.
 
-Again, going as per my monthly endomondo plan, today I am scheduled for a run of 4.5 Kms with a pace of 6.9.
+Again, going as per my monthly [Endomondo] plan, today I am scheduled for a run of 4.5 Kms with a pace of 6.9.
 
 ![July Running Calendar](/assets/images/run/runnincalendar_july.png)
 
@@ -28,5 +28,6 @@ Along all this I am going through an screwed up diet, I need to cut down on my c
 Running itself is more of a practice thing, the more you do the better form you achieve. With running, it is important other activities of gym and diet should be included.
 
 For a long time I was under this misconception that gym and running and cycling alone can help loose weight improve performance but I realise what you eat is what makes you.
+
 
 [Endomondo]: https://www.endomondo.com
