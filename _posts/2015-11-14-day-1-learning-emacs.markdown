@@ -4,37 +4,46 @@ title: "Day 1 - Learn Emacs in 30 days challenge"
 date: 2015-11-14 00:02 +0530
 category: emacs
 author: omps
-tags: emacs, 30daychallenge, #day1
+tags: emacs, 30daychallenge, day1
 comments: true
 ---
 
-Thank you for your support and encouragement. So here I am writing about my beginning of Day 1: part and working with EMACS.
+Thank you for the encouragement. I am planning to writing about my beginning of learning emacs series Day 1: part and working with EMACS.
 
 The below is the content I am planning to touch upon during my 30 Days challenge. The checklist is not in any particular order, but just to remind me of the topics what I need to cover.
-<!--more-->
--   [ ] Modes.
--   [ ] IDO Mode
--   [ ] org-mode
-    -   [ ] Todo items
-    -   [ ] Hyperlinks
-    -   [ ] tags, tables
-    -   [ ] propertis and columns
-    -   [ ] Date and time.
-    -   [ ] AGenda views
-    -   [ ] Exporting
--   [ ] tramp
--   [X] Running command by the name/ help/ commands for fixing typos. - Day 6
--   [X] Commands for human languages.
--   [ ] Mark and the region / Killing and moving text / Registers
--   [ ] Contrlling the display / Multiple buffers / Multiple windows / frames and graphical display
--   [ ] Search and replacement.
--   [ ] File handelling.
--   [ ] Editing compling, testing and mantaining programs.
--   [ ] Sending mail, reading mail with rmail.
--   [ ] Dired mode.
--   [ ] The calendar and the diary.
--   [ ] Miscellaneous commands
--   [ ] Customization.
+
+- welcome to emacs. - You are here.
+- what are modes in emacs.
+- What is IDO Mode and its benefits.
+- org-mode your personal notepad and organizer.
+- Manage your todo with org-mode
+- tramp: doing remote work with tramp.
+- Running command by its name
+- help commands for fixing typos.
+- commands for for moving around in the file.
+- how to mark and the region, cut, copy and pasting text
+- understanding emacs registers or the clipboard.
+- Managing your emacs window.
+- using multiple buffers in one window and using multiple windows
+- creating multi frames and using the graphical display.
+- How to search text and replace.
+- File handelling with emacs.
+- using emacs as your terminal and run commands.
+- using your emacs as and IDE. Editing, compling, testing and mantaining programs.
+- As an alternate MTA to outlook/gmail. Sending mail, reading mail with rmail.
+- Emacs as file manager. Dired mode.
+- Making emacs as an online diary. calendar and the diary.
+- connecting to IRC.
+- My python IDE.
+- Beatufying emacs with colourful themes.
+- Mold emacs as you like it.
+- extending your emacs.
+- version control with emacs.
+- when you are bored and just want to chill.
+- Programming in emacs.
+- Emacs as a Perl IDE
+- Emacs as a HTML IDE
+- Writing beautiful ruby codes in emacs.
 
 Quoting from Emacs Manual
 " Emacs is the extensible, customizable, self-documenting real-time display editor."
