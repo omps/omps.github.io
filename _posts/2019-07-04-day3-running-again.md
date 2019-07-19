@@ -9,7 +9,7 @@ categories: [ IRONMAN ]
 featured: true
 tags: ["running", "training", "ironman"]
 ---
-This is the 2 day of my running, I am pinning my thoughts here as a blog for me to come back and read about what I did(right or wrong) and for anyone who is beginning to run, to help them in understanding that this is what will happen to you who never ran all his life and suddenly find a solace in cycling and running.
+This is the 3rd day of my running, I am pinning my thoughts here as a blog for me to come back and read about what I did(right or wrong) and for anyone who is beginning to run, to help them in understanding that this is what will happen to you who never ran all his life and suddenly find a solace in cycling and running.
 
 My writing could be bad but I have no plans to discourage anyone started running by this blog posts, this is my personal experience which I want to share which could help me later and anyone who feels discouraged by the beginning and think this is going to be tough and challenging.
 
