@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html class="aws-v1-page no-js aws-lng-en_US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml" data-aws-assets="https://a0.awsstatic.com" data-js-version="1.0.473" data-css-version="1.0.435">
+ <head> 
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <link rel="dns-prefetch" href="https://a0.awsstatic.com" /> 
+  <link rel="dns-prefetch" href="//d0.awsstatic.com" /> 
+  <link rel="dns-prefetch" href="//d1.awsstatic.com" /> 
+  <title>July 2019</title> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <meta name="robots" content="index, follow" /> 
+  <link rel="canonical" href="https://aws.amazon.com/about-aws/whats-new/2019/07/" /> 
+  <link rel="icon" type="image/ico" href="https://a0.awsstatic.com/main/images/site/fav/favicon.ico" /> 
+  <link rel="shortcut icon" type="image/ico" href="https://a0.awsstatic.com/main/images/site/fav/favicon.ico" /> 
+  <link rel="apple-touch-icon" sizes="57x57" href="https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png" /> 
+  <link rel="apple-touch-icon" sizes="72x72" href="https://a0.awsstatic.com/main/images/site/touch-icon-ipad-144-smile.png" /> 
+  <link rel="apple-touch-icon" sizes="114x114" href="https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png" /> 
+  <link rel="apple-touch-icon" sizes="144x144" href="https://a0.awsstatic.com/main/images/site/touch-icon-ipad-144-smile.png" /> 
+  <meta property="twitter:card" content="summary" /> 
+  <meta property="twitter:title" content="July 2019" /> 
+  <meta property="twitter:description" content="" /> 
+  <meta property="twitter:image" content="https://a0.awsstatic.com/main/images/logos/aws_logo_smile_179x109.png" /> 
+  <meta property="twitter:site" content="@awscloud" /> 
+  <meta property="og:title" content="July 2019" /> 
+  <meta property="og:type" content="company" /> 
+  <meta property="og:url" content="https://aws.amazon.com/about-aws/whats-new/2019/07/" /> 
+  <meta property="og:image" content="https://a0.awsstatic.com/main/images/logos/aws_logo_smile_1200x630.png" /> 
+  <meta property="og:site_name" content="Amazon Web Services, Inc." /> 
+  <meta property="fb:pages" content="153063591397681" /> 
+  <meta name="google-site-verification" content="XHghG81ulgiW-3EylGcF48sG28tBW5EH0bNUhgo_DrU" /> 
+  <meta name="msvalidate.01" content="6F92E52A288E266E30C2797ECB5FCCF3" /> 
+  <meta name="baidu-site-verification" content="pjxJUyWxae" /> 
+  <link rel="alternate" href="//aws.amazon.com/de/about-aws/whats-new/2019/07/" hreflang="de-de" /> 
+  <link rel="alternate" href="//aws.amazon.com/about-aws/whats-new/2019/07/" hreflang="en-us" /> 
+  <link rel="alternate" href="//aws.amazon.com/es/about-aws/whats-new/2019/07/" hreflang="es-es" /> 
+  <link rel="alternate" href="//aws.amazon.com/fr/about-aws/whats-new/2019/07/" hreflang="fr-fr" /> 
+  <link rel="alternate" href="//aws.amazon.com/it/about-aws/whats-new/2019/07/" hreflang="it-it" /> 
+  <link rel="alternate" href="//aws.amazon.com/jp/about-aws/whats-new/2019/07/" hreflang="ja-jp" /> 
+  <link rel="alternate" href="//aws.amazon.com/ko/about-aws/whats-new/2019/07/" hreflang="ko-kr" /> 
+  <link rel="alternate" href="//aws.amazon.com/pt/about-aws/whats-new/2019/07/" hreflang="pt-br" /> 
+  <link rel="alternate" href="//aws.amazon.com/cn/about-aws/whats-new/2019/07/" hreflang="zh-cn" /> 
+  <link rel="alternate" href="//aws.amazon.com/tw/about-aws/whats-new/2019/07/" hreflang="zh-tw" /> 
+  <link rel="stylesheet" href="https://a0.awsstatic.com/main/css/1.0.435/style.css" /> 
+  <script>
+    var AWS = {
+      PageSettings: {
+        supportedLanguages: ['ar', 'en', 'es', 'de', 'fr', 'id', 'it', 'jp', 'ko', 'pt', 'ru', 'th', 'tr', 'vi', 'cn', 'tw'],
+        defaultLanguage: 'en',
+        logDataSet: 'LIVE:PROD',
+        logInstance: 'PUB',
+        csdsEndpoint: 'https://aws.amazon.com/',
+        framework: 'v1',
+        g11nLibPath: 'https://a0.awsstatic.com/g11n-lib/2.0.33',
+        i18nStringPath: 'https://i18n-string.us-west-2.prod.pricing.aws.a2z.com',
+        libraCSSPath: 'https://a0.awsstatic.com/libra-css/css/1.0.295',
+        isLoggingEnabled: true,
+        currentLanguage: 'en-US',
+        isRTL: false
+      },
+    };
+
+    var require = {
+      baseUrl: "https://a0.awsstatic.com/chrome/js/1.0.473/",
+      paths: {
+        "jquery": "jquery-amd",
+        "psf": "https://a0.awsstatic.com/psf/1.0.35",
+        "plc": "https://a0.awsstatic.com/plc/js/1.0.81/plc",
+        "directories": "https://a0.awsstatic.com/libra/1.0.288/directories",
+        "libra": "https://a0.awsstatic.com/libra/1.0.288",
+        "libra-cardsui": "https://a0.awsstatic.com/libra/1.0.288/libra-cardsui",
+        "librastandardlib": "https://a0.awsstatic.com/libra/1.0.288/librastandardlib"
+      },
+      deps: ["scripts"],
+      shim: {
+        "scripts": ["jquery"],
+        "forms": ["jquery"],
+        "pricing-table": ["jquery", "scripts"],
+        "plugins/bootstrap.button": ["jquery"],
+        "plugins/bootstrap.collapse": ["jquery"],
+        "plugins/bootstrap.dropdown": ["jquery"],
+        "plugins/bootstrap.popover": ["jquery"],
+        "plugins/bootstrap.tab": ["jquery"],
+        "plugins/bootstrap.tooltip": ["jquery"],
+        "plugins/free-tier": ["jquery", "scripts"],
+        "plugins/jquery.caroufredsel": ["jquery"],
+        "plugins/jquery.fancybox": ["jquery"],
+        "plugins/jwplayer.html5": ["jquery"],
+        "plugins/jwplayer": ["jquery"],
+        "plugins/pbSize": ["jquery"],
+        "plugins/pushstate": ["jquery", "scripts"],
+        "plugins/search-controller": ["jquery"],
+        "plugins/jquery.touchSwipe": ["jquery"]
+      },
+      waitSeconds: 15
+    };
+  </script> 
+  <script src="https://a0.awsstatic.com/chrome/js/1.0.473/head.2.0.js"></script> 
+  <script src="https://a0.awsstatic.com/s_code/js/1.0/awshome_s_code.js"></script> 
+  <script>
+      AWS.TargetMediator = {
+        supportedLanguages: AWS.PageSettings.supportedLanguages,holdJqueryReady: true,offerOrigin: 'https://s0.awsstatic.com',pageLanguage: 'en'
+      };
+    </script> 
+  <script data-js-script="target-mediator" src="https://a0.awsstatic.com/target/1.0.102/aws-target-mediator.js"></script> 
+ </head> 
+ <body> 
+  <header id="aws-page-header" class="awsm m-page-header" role="banner"> 
+   <div id="m-nav" class="m-nav" role="navigation"> 
+    <div class="m-nav-header lb-clearfix" data-menu-url="https://s0.awsstatic.com/en_US/nav/v3/panel-content/desktop/index.html"> 
+     <div class="m-nav-logo"> 
+      <div class="lb-bg-logo aws-amazon_web_services_smile-header-desktop-en"> 
+       <a href="https://aws.amazon.com/?nc2=h_lg"><span>Click here to return to Amazon Web Services homepage</span></a> 
+      </div> 
+     </div> 
+     <div class="m-nav-secondary-links" style="min-width: 620px"> 
+      <a href="/contact-us/?nc2=h_header">Contact Sales</a> 
+      <a class="lb-txt-none lb-tiny-iblock lb-txt-13 lb-txt lb-has-trigger-indicator" href="#" data-mbox-ignore="true" data-lb-popover-trigger="popover-support-selector"> Support&nbsp; <i class="icon-caret-down lb-trigger-mount"></i></a> 
+      <a id="m-nav-language-selector" class="lb-tiny-iblock lb-txt lb-has-trigger-indicator" href="#" data-lb-popover-trigger="popover-language-selector" data-language="en">English&nbsp;<i class="icon-caret-down lb-trigger-mount"></i></a> 
+      <a class="lb-tiny-iblock lb-txt lb-has-trigger-indicator" href="#" data-lb-popover-trigger="popover-my-account">My Account&nbsp;<i class="icon-caret-down lb-trigger-mount"></i></a> 
+      <div class="m-nav-cta-btn"> 
+       <div class="lb-mbox js-mbox" data-lb-comp="mbox" data-mbox="en_header_nav_cta" data-lb-comp-ignore="true"> 
+        <div class="lb-btn"> 
+         <a id="aws-nav-cta-button" class="lb-btn-p-primary" href="https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?nc2=h_ct&amp;src=default" style="min-width:171px;"><span>Create an AWS Account</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="m-nav-primary-group"> 
+      <div class="m-nav-primary-links"> 
+       <i class="m-nav-angle-left-icon" aria-hidden="true"></i> 
+       <ul> 
+        <li><a href="/products/?nc2=h_ql_prod" data-panel="m-nav-panel-products">Products</a></li> 
+        <li><a href="/solutions/?nc2=h_ql_sol" data-panel="m-nav-panel-solutions">Solutions</a></li> 
+        <li><a href="/pricing/?nc2=h_ql_pr" data-panel="m-nav-panel-pricing">Pricing</a></li> 
+        <li><a href="https://docs.aws.amazon.com/index.html?nc2=h_ql_doc" data-panel="m-nav-panel-documentation">Documentation</a></li> 
+        <li><a href="/getting-started/?nc2=h_ql_gs" data-panel="m-nav-panel-learn">Learn</a></li> 
+        <li><a href="/partners/?nc2=h_ql_pn" data-panel="m-nav-panel-partner">Partner Network</a></li> 
+        <li><a href="https://aws.amazon.com/marketplace/?nc2=h_ql_mp" data-panel="m-nav-panel-marketplace">AWS Marketplace</a></li> 
+        <li><a href="/contact-us/?nc2=h_header" data-panel="m-nav-panel-more">Explore More </a></li> 
+       </ul> 
+       <div class="m-nav-icon-group"> 
+        <i class="m-nav-angle-right-icon" aria-hidden="true"></i> 
+        <i class="m-nav-search-icon"></i> 
+       </div> 
+      </div> 
+      <div class="m-nav-search"> 
+       <form action="https://aws.amazon.com/search" role="search"> 
+        <div class="m-typeahead" data-directory-id="typeahead-suggestions" data-lb-comp="typeahead"> 
+         <input class="m-nav-search-field" placeholder="Search" autocomplete="off" spellcheck="false" dir="auto" type="text" name="searchQuery" /> 
+        </div> 
+       </form> 
+       <i class="m-nav-close-icon"></i> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-popover lb-popover-aui lb-popover-tiny" data-lb-comp="popover" data-id="popover-language-selector" data-action="hover" data-position="top"> 
+     <div class="lb-grid lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <ul class="lb-txt-none lb-ul lb-list-style-none lb-tiny-ul-block"> 
+        <li data-language="ar"> <a href="https://aws.amazon.com/ar/?nc1=h_ls">عربي</a> </li> 
+        <li data-language="id"> <a href="https://aws.amazon.com/id/?nc1=h_ls">Bahasa Indonesia</a> </li> 
+        <li data-language="de"> <a href="https://aws.amazon.com/de/?nc1=h_ls">Deutsch</a> </li> 
+        <li data-language="en"> <a href="https://aws.amazon.com/?nc1=h_ls">English</a> </li> 
+        <li data-language="es"> <a href="https://aws.amazon.com/es/?nc1=h_ls">Espa&ntilde;ol</a> </li> 
+        <li data-language="fr"> <a href="https://aws.amazon.com/fr/?nc1=h_ls">Fran&ccedil;ais</a> </li> 
+        <li data-language="it"> <a href="https://aws.amazon.com/it/?nc1=h_ls">Italiano</a> </li> 
+        <li data-language="pt"> <a href="https://aws.amazon.com/pt/?nc1=h_ls">Portugu&ecirc;s</a> </li> 
+       </ul> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <ul class="lb-txt-none lb-ul lb-list-style-none lb-tiny-ul-block"> 
+        <li data-language="vi"> <a href="https://aws.amazon.com/vi/?nc1=f_ls">Tiếng Việt</a> </li> 
+        <li data-language="tr"> <a href="https://aws.amazon.com/tr/?nc1=h_ls">T&uuml;rk&ccedil;e</a> </li> 
+        <li data-language="ru"> <a href="https://aws.amazon.com/ru/?nc1=h_ls">Ρусский</a> </li> 
+        <li data-language="th"> <a href="https://aws.amazon.com/th/?nc1=f_ls">ไทย</a> </li> 
+        <li data-language="jp"> <a href="https://aws.amazon.com/jp/?nc1=h_ls">日本語</a> </li> 
+        <li data-language="ko"> <a href="https://aws.amazon.com/ko/?nc1=h_ls">한국어</a> </li> 
+        <li data-language="cn"> <a href="https://aws.amazon.com/cn/?nc1=h_ls">中文 (简体)</a> </li> 
+        <li data-language="tw"> <a href="https://aws.amazon.com/tw/?nc1=h_ls">中文 (繁體)</a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-popover lb-popover-aui lb-popover-tiny" data-lb-comp="popover" data-id="popover-my-account" data-action="hover" data-position="top"> 
+     <ul class="lb-txt-none lb-ul lb-list-style-none lb-tiny-ul-block"> 
+      <li> <a href="https://console.aws.amazon.com/?nc2=h_m_mc">AWS Management Console</a> </li> 
+      <li> <a href="https://portal.aws.amazon.com/gp/aws/manageYourAccount?nc2=h_m_ma">Account Settings</a> </li> 
+      <li> <a href="https://console.aws.amazon.com/billing/home?nc2=h_m_bc">Billing &amp; Cost Management</a> </li> 
+      <li> <a href="https://console.aws.amazon.com/iam/home?nc2=h_m_sc#security_credential">Security Credentials</a> </li> 
+      <li> <a href="https://phd.aws.amazon.com/?nc2=h_m_sc">AWS Personal Health Dashboard</a> </li> 
+     </ul> 
+    </div> 
+    <div class="lb-popover lb-popover-aui lb-popover-tiny" data-lb-comp="popover" data-id="popover-support-selector" data-action="hover" data-position="top"> 
+     <ul class="lb-txt-none lb-ul lb-list-style-none lb-tiny-ul-block"> 
+      <li> <a href="https://console.aws.amazon.com/support/home/?nc2=h_ql_cu">Support Center</a> </li> 
+      <li> <a href="/premiumsupport/knowledge-center/?nc2=h_m_ma">Knowledge Center</a> </li> 
+      <li> <a href="/premiumsupport/?nc2=h_m_bc">AWS Support Overview</a> </li> 
+     </ul> 
+    </div> 
+    <script class="tt-suggestion-tpl" type="text/x-handlebars-template">
+    <div>
+      <a href="{{primaryUrl}}">
+        <div class="tt-title">
+          {{title}}
+        </div>
+        {{#if desc}}
+          <div class="tt-desc">
+            {{desc}}
+          </div>
+        {{/if}}
+      </a>
+      <div class="tt-btn-group">
+        {{#if pricingUrl}}
+          <a href="{{pricingUrl}}">
+            <div class="tt-btn">Pricing</div>
+          </a>
+        {{/if}}
+        {{#if docsUrl}}
+          <a href="{{docsUrl}}">
+            <div class="tt-btn">Documentation</div>
+          </a>
+        {{/if}}
+      </div>
+    </div>
+  </script> 
+    <script class="tt-products-head-tpl" type="text/x-handlebars-template">
+    <div class="tt-header aws-ember lb-txt-bold">
+      <p>Products</p>
+    </div>
+  </script> 
+    <script class="tt-keypages-head-tpl" type="text/x-handlebars-template">
+    <div class="tt-header aws-ember lb-txt-bold">
+      <p>Related Pages</p>
+    </div>
+  </script> 
+    <script class="tt-tutorials-head-tpl" type="text/x-handlebars-template">
+    <div class="tt-header aws-ember lb-txt-bold">
+      <p>Tutorials</p>
+    </div>
+  </script> 
+    <script class="tt-see-all-tpl" type="text/x-handlebars-template">
+    <div class="tt-see-all">
+      <a href="https://aws.amazon.com/search/?searchQuery={{ query }}">See more results for "{{ query }}"&lrm;</a>
+    </div>
+  </script> 
+   </div> 
+   <div id="m-nav-mobile" class="m-nav-mobile"> 
+    <div id="m-nav-mobile-header" class="m-nav-mobile-header" data-menu-url="https://s0.awsstatic.com/en_US/nav/v3/panel-content/mobile/index.html"> 
+     <div class="lb-bg-logo aws-amazon_web_services_smile-header-mobile-en"> 
+      <a href="https://aws.amazon.com/?nc2=h_lg"><span>Click here to return to Amazon Web Services homepage</span></a> 
+     </div> 
+     <div class="m-nav-mobile-button-group"> 
+      <i class="m-nav-mobile-button icon-search"></i> 
+      <i class="m-nav-mobile-button icon-reorder"></i> 
+     </div> 
+    </div> 
+    <div id="m-nav-mobile-search" class="m-nav-mobile-search"> 
+     <form action="https://aws.amazon.com/search" role="search"> 
+      <div class="m-typeahead"> 
+       <input class="m-nav-search-field" placeholder="Search" autocomplete="off" spellcheck="false" dir="auto" type="text" name="searchQuery" /> 
+      </div> 
+     </form> 
+    </div> 
+    <nav id="m-nav-trimdown" role="navigation"> 
+     <ul class="m-nav-mobile-menu-group"> 
+      <li> <a href="/products/?nc2=h_mo">Products</a> </li> 
+      <li> <a href="/solutions/?nc2=h_mo">Solutions</a> </li> 
+      <li> <a href="/pricing/?nc2=h_mo">Pricing</a> </li> 
+      <li> <a href="/what-is-aws/?nc2=h_mo">Introduction to AWS</a> </li> 
+      <li> <a href="/getting-started/?nc2=h_mo">Getting Started</a> </li> 
+      <li> <a href="/documentation/?nc2=h_mo">Documentation</a> </li> 
+      <li> <a href="/training/?nc2=h_mo">Training and Certification</a> </li> 
+      <li> <a href="/developer/?nc2=h_mo">Developer Center</a> </li> 
+      <li> <a href="/solutions/case-studies/?nc2=h_mo">Customer Success</a> </li> 
+      <li> <a href="/partners/?nc2=h_mo">Partner Network</a> </li> 
+      <li> <a href="https://aws.amazon.com/marketplace/?nc2=h_mo">AWS Marketplace</a> </li> 
+      <li> <a href="https://console.aws.amazon.com/support/home?nc2=h_ql_cu">Support</a> </li> 
+      <li> <a href="https://console.aws.amazon.com/console/home">Log into Console</a> </li> 
+      <li> <a href="/console/mobile/">Download the Mobile App</a> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+  </header> 
+  <div id="aws-page-content" class="page-content"> 
+   <div class="wrapper row"> 
+    <aside class="three columns leftnavcontainer" role="complementary"> 
+     <div class="leftnav"> 
+      <div class="sidebar parsys iparsys"> 
+       <div class="section"> 
+        <div class="new"></div> 
+       </div> 
+       <div class="iparys_inherited"> 
+        <div class="sidebar parsys iparsys"> 
+         <div class="section"> 
+          <div class="anchor-link-list"> 
+           <nav> 
+            <div class="breadcrumb-wrapper clearfix"> 
+             <div class="breadcrumb"> 
+              <div class="small-logo-wrapper"> 
+               <a href="#top"> 
+                <div class="small-logo">
+                  Amazon Web Services 
+                </div></a> 
+              </div> 
+              <span class="breadcrumb-small"><a href="/about-aws/">ABOUT AWS</a></span> 
+             </div> 
+             <div class="go-to-top"> 
+              <a href="#top"><i class="icon-angle-up button"></i></a> 
+             </div> 
+            </div> 
+            <ul class="side-navbar nav"> 
+             <div class="custom-sidenavItem new_slide1 parbase"> 
+              <li class=""> <a class="link-list-item" href="/about-aws/"> About AWS<i class="icon-angle-right"></i> </a> </li> 
+             </div> 
+             <div class="custom-sidenavItem new_slide parbase"> 
+              <li class=""> <a class="link-list-item" href="/about-aws/global-infrastructure/"> Global Infrastructure<i class="icon-angle-right"></i> </a> </li> 
+             </div> 
+             <div class="custom-sidenavItem parbase new_slide_1"> 
+              <li class=""> <a class="link-list-item" href="/new/"> What's New<i class="icon-angle-right"></i> </a> </li> 
+             </div> 
+             <div class="custom-sidenavItem parbase new_slide_2"> 
+              <li class=""> <a class="link-list-item" href="/about-aws/in-the-news/"> AWS in the News<i class="icon-angle-right"></i> </a> </li> 
+             </div> 
+             <div class="custom-sidenavItem parbase new_slide_3"> 
+              <li class=""> <a class="link-list-item" href="/about-aws/events/"> Events &amp; Webinars<i class="icon-angle-right"></i> </a> </li> 
+             </div> 
+            </ul> 
+            <script>
+            require(["scripts"], function() {
+                var options = {
+                    scrollspy: true
+                };
+
+                $.awsComponent.leftSideBar(options);
+            });
+        </script> 
+           </nav> 
+          </div> 
+         </div> 
+         <div class="section"> 
+          <div class="related-link"> 
+           <p>Related Links</p> 
+           <ul> 
+            <li> <a class="related-item" href="/what-is-cloud-computing/"> What is Cloud Computing? </a> </li> 
+            <li> <a class="related-item" href="/free/"> AWS Free Usage Tier </a> </li> 
+            <li> <a class="related-item" href="http://aws.amazon.com/blogs/aws/"> AWS Blog </a> </li> 
+            <li> <a class="related-item" href="/careers/"> AWS Careers </a> </li> 
+            <li> <a class="related-item" href="/training/"> AWS Training </a> </li> 
+           </ul> 
+          </div> 
+         </div> 
+         <div class="section"> 
+          <div class="parbase mbox"> 
+           <div class="lb-mbox js-mbox" data-lb-comp="mbox" data-mbox="en_nav_left_cta" data-lb-comp-ignore="true"> 
+            <div class="parsys mbox"> 
+             <div class="call-to-action parbase section"> 
+              <div class="sidebar-cta "> 
+               <p>Get Started with AWS for Free</p> 
+               <a class="button btn-gold" href="https://portal.aws.amazon.com/gp/aws/developer/registration/index.html">Create Free Account</a> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </aside> 
+    <div class="nine columns content-with-nav"> 
+     <main role="main"> 
+      <section data-page-alert-target="true"> 
+       <div class="title-wrapper"> 
+        <div class="row title"> 
+         <div class="twelve columns"> 
+          <h1 id="July_2019"> <a name="July_2019"> July 2019</a> </h1> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="parsys content"> 
+        <div class="parbase section list"> 
+         <div class=""> 
+          <ul class="directory-list whats-new-detail"> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/now-use-aws-systems-manager-maintenance-windows-to-select-resource-groups-as-targets/">Now use AWS Systems Manager Maintenance Windows to select resource groups as targets</a></h3> 
+            <div class="date">
+              Posted On: Jul 23, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS Systems Manager Maintenance Windows enable you to define a time window for performing potentially disruptive actions on your instances. You can now use maintenance windows to select a resource group as the target. Resource groups make it easier to organize, manage, and automate tasks on large numbers of resources at one time. By selecting a resource group as the target of a maintenance window, you can perform routine tasks across different resources such as Amazon Elastic Compute Cloud (Amazon EC2) instances, Amazon Elastic Block Store (Amazon EBS) volumes, and Amazon Simple Storage Service (Amazon S3) buckets within the same recurring time window. &nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/now-use-aws-systems-manager-maintenance-windows-to-select-resource-groups-as-targets/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/configuration-update-for-amazon-efs-encryption-data-in-transit/">Configuration update for Amazon EFS encryption of data in transit</a></h3> 
+            <div class="date">
+              Posted On: Jul 23, 2019 
+            </div> 
+            <div class="description"> 
+             <p>We’ve updated the default configuration for the <a href="/efs/">Amazon Elastic File System (Amazon EFS)</a> mount helper package when using encryption of data in transit. Starting today, use of the Online Certificate Status Protocol (OCSP) is not enabled by default.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/configuration-update-for-amazon-efs-encryption-data-in-transit/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/introducing-amazon-ec2-resource-optimization-recommendations/">Introducing Amazon EC2 Resource Optimization Recommendations </a></h3> 
+            <div class="date">
+              Posted On: Jul 23, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Starting today, you can access custom-generated Amazon EC2 resource optimization recommendations in AWS Cost Explorer. These recommendations identify idle and underutilized instances across your accounts and regions. To generate these recommendations, AWS analyzes your historical EC2 resource usage, your Amazon CloudWatch metrics, and your existing reservation footprint to identify opportunities for cost savings (e.g., by terminating idle instances or downsizing active instances to lower-cost options). For example, if your m5.2xlarge has a maximum utilization of 20% over the last 14 days, AWS may recommended downsizing that instance to m5.xlarge or m5.large and show you how much you can save based on your usage and your applicable m5 family reservations.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/introducing-amazon-ec2-resource-optimization-recommendations/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-backup-will-automatically-copy-tags-from-resource-to-recovery-point/">AWS Backup will Automatically Copy Tags from Resource to Recovery Point</a></h3> 
+            <div class="date">
+              Posted On: Jul 23, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS Backup now provides customers a more seamless way to manage their backups, by automatically copying tags from their resources to their backups.&nbsp;For customers using tags to manage their AWS resources, AWS Backup will enable them to more effectively search for source resources or conduct billing for their backups. See <a href="/answers/account-management/aws-tagging-strategies/">AWS Tagging Strategies</a> for tagging best practices.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-backup-will-automatically-copy-tags-from-resource-to-recovery-point/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-ec2-p3-nstances-featuring-nvidia-volta-v100-gpus-now-support-nvidia-quadro-virtual-workstation/">Amazon EC2 P3 Instances Featuring NVIDIA Volta V100 GPUs now Support NVIDIA Quadro Virtual Workstation</a></h3> 
+            <div class="date">
+              Posted On: Jul 23, 2019 
+            </div> 
+            <div class="description"> 
+             <p> Customers can now use Amazon EC2 P3 and P3dn instances for graphics applications such as remote workstations and 3D visualization using NVIDIA Quadro Virtual Workstation software made available using new Amazon Machine Images (AMIs) accessible on the AWS Marketplace.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-ec2-p3-nstances-featuring-nvidia-volta-v100-gpus-now-support-nvidia-quadro-virtual-workstation/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-mq-adds-support-for-aws-key-management-service-improving-encryption-capabilities/">Amazon MQ Adds Support for AWS Key Management Service (AWS KMS), Improving Encryption Capabilities</a></h3> 
+            <div class="date">
+              Posted On: Jul 22, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Amazon MQ now supports the AWS Key Management Service (AWS KMS) to create and manage keys for at-rest encryption of customer data in Amazon MQ. Amazon MQ handles the encryption and decryption seamlessly, so you don’t have to change your applications to access your data. When you create a broker, you can now select the KMS key used to encrypt your data from the following three options: a KMS key in the Amazon MQ service account, a KMS key in your account that Amazon MQ creates and manages, or a KMS key in your account that you create and manage. In addition to encryption at rest, all data transferred between Amazon MQ and client applications is securely transmitted using TLS/SSL.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-mq-adds-support-for-aws-key-management-service-improving-encryption-capabilities/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/introducing-ai-driven-social-media-dashboard/">Introducing AI-Driven Social Media Dashboard</a></h3> 
+            <div class="date">
+              Posted On: Jul 22, 2019 
+            </div> 
+            <div class="description"> 
+             <p><a href="/solutions/ai-driven-social-media-dashboard/" target="_blank">AI-Driven Social Media Dashboard</a> is a solution that monitors and ingests specified tweets using stream processing and leverages a serverless architecture and machine learning services to translate and extract insights from those tweets. The solution is easy to deploy and contains a data lake you can use to quickly and easily perform additional analytics on tweet data.<br /> </p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/introducing-ai-driven-social-media-dashboard/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-systems-manager-distributor-makes-it-easier-to-create-distributable-software-packages/">AWS Systems Manager Distributor makes it easier to create distributable software packages</a></h3> 
+            <div class="date">
+              Posted On: Jul 22, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS Systems Manager Distributor provides simplified package creation, enabling you to deploy your software packages across instances quickly. Distributor will package your installers so they can be easily used to install and update your software across multiple operating systems.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-systems-manager-distributor-makes-it-easier-to-create-distributable-software-packages/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-direct-connect-support-aws-transit-gateway-now-available-in-aws-eu-ireland-region/">AWS Direct Connect support for AWS Transit Gateway is Now Available in AWS EU (Ireland) region</a></h3> 
+            <div class="date">
+              Posted On: Jul 22, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS Direct Connect support for AWS Transit Gateway is now available in AWS EU (Ireland) region. With this feature, customers can connect thousands of Amazon Virtual Private Clouds (Amazon VPCs) in multiple AWS Regions to their on-premises networks using 1/2/5/10 Gbps AWS Direct Connect connections. &nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-direct-connect-support-aws-transit-gateway-now-available-in-aws-eu-ireland-region/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-ecs-console-enables-simplified-aws-app-mesh-integration/">Amazon ECS Console now enables simplified AWS App Mesh integration</a></h3> 
+            <div class="date">
+              Posted On: Jul 22, 2019 
+            </div> 
+            <div class="description"> 
+             <p>When creating or updating an ECS task definition in the ECS console, you now have the ability to add the task to a mesh in AWS App Mesh. AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.<br /> </p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-ecs-console-enables-simplified-aws-app-mesh-integration/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws_iot_device_tester_v130_for_amazon_freertos_201906_00_major/">AWS IoT Device Tester v1.3.0 is Now Available for Amazon FreeRTOS 201906.00 Major</a></h3> 
+            <div class="date">
+              Posted On: Jul 22, 2019 
+            </div> 
+            <div class="description"> 
+             <p><a href="https://aws.amazon.com/freertos/device-tester/" target="_blank">AWS IoT Device Tester,</a> a Windows/Linux/Mac test automation tool for connected devices, is now available for <a href="https://aws.amazon.com/about-aws/whats-new/2019/06/bluetooth-low-energy-support-amazon-freertos-now-available/" target="_blank">Amazon FreeRTOS 201906.00 Major.</a></p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws_iot_device_tester_v130_for_amazon_freertos_201906_00_major/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-comprehend-custom-entities-supports-multiple-entity-types/">Amazon Comprehend Custom Entities now supports multiple entity types</a></h3> 
+            <div class="date">
+              Posted On: Jul 19, 2019 
+            </div> 
+            <div class="description"> 
+             <p><a href="/comprehend/">Amazon Comprehend</a> is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text. With Comprehend’s Custom Entity Recognition API, you can easily build models to extract custom entities (policy numbers, part codes, serial numbers, etc.) that are tailored to your organization’s needs.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-comprehend-custom-entities-supports-multiple-entity-types/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-device-farm-improves-device-start-up-time-to-enable-instant-access-to-devices/">AWS Device Farm improves device start up time to enable instant access to devices</a></h3> 
+            <div class="date">
+              Posted On: Jul 19, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS Device Farm is an app testing service that lets you test your Android, iOS, and web apps , on a massive collection of real mobile devices hosted in the AWS Cloud. You can use one of the supported automation test frameworks to parallelly test your app on many devices, or you can use Device Farm’s Remote Access (manual testing) feature to gesture, swipe, and interact, with the device in real time directly from your web browser. &nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-device-farm-improves-device-start-up-time-to-enable-instant-access-to-devices/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/elastic-fabric-adapter-officially-integrated-into-libfabric-library/">Elastic Fabric Adapter is officially integrated into Libfabric Library</a></h3> 
+            <div class="date">
+              Posted On: Jul 19, 2019 
+            </div> 
+            <div class="description"> 
+             <p>The <a href="/hpc/efa/">Elastic Fabric Adapter (EFA)</a> provider is officially integrated into the Libfabric 1.8 release. Customers can directly use Libfabric 1.8 without needing to install the EFA provider separately.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/elastic-fabric-adapter-officially-integrated-into-libfabric-library/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/sagemaker-batch-transform-enable-associating-prediction-results-with-input-attributes/">SageMaker Batch Transform now enables associating prediction results with input attributes </a></h3> 
+            <div class="date">
+              Posted On: Jul 19, 2019 
+            </div> 
+            <div class="description"> 
+             <p><a href="https://docs.aws.amazon.com/sagemaker/latest/dg/batch-transform.html">Amazon SageMaker Batch Transform</a> enables you to run predictions on datasets stored in <a href="/s3/">Amazon S3</a>. It is ideal for scenarios where you are working with large batches of data and don’t need sub-second latency. You can now configure your Batch Transform Jobs to exclude certain data attributes from prediction requests, and to join some or all of the input data attributes with prediction results. As a result, you no longer need additional pre-processing or post-processing when running batch predictions on data that is in CSV or JSON format.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/sagemaker-batch-transform-enable-associating-prediction-results-with-input-attributes/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-documentdb-mongo-db-compatibility-now-available-eu-london-region/">Amazon DocumentDB (with MongoDB compatibility) is Now Available in EU (London) Region</a></h3> 
+            <div class="date">
+              Posted On: Jul 19, 2019 
+            </div> 
+            <div class="description"> 
+             <p><a href="/documentdb/">Amazon DocumentDB (with MongoDB compatibility)</a> is now available in the EU (London) region.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-documentdb-mongo-db-compatibility-now-available-eu-london-region/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-ecr-now-supports-increased-repository-and-image-limits/">Amazon ECR now supports increased repository and image limits</a></h3> 
+            <div class="date">
+              Posted On: Jul 19, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Amazon Elastic Container Registry (ECR) now supports increased number of repositories per region and images per repository. Previously, the default limit was 1,000 repositories per region and 1,000 images per repository, and required an extra step to increase limits. Now, the default limit has been increased to 10,000 repositories per region and 10,000 images per repository to better align with your requirements and growth.<br /> </p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-ecr-now-supports-increased-repository-and-image-limits/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-inspector-now-available-europe-stockholm-region/">Amazon Inspector is now available in the Europe (Stockholm) Region</a></h3> 
+            <div class="date">
+              Posted On: Jul 19, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Starting today, Amazon Inspector is available to customers in the Europe (Stockholm) region. With the addition of this region, Inspector is available in US East (N. Virginia), US East (Ohio), US West (N. California), US West (Oregon), EU (Frankfurt), EU (Ireland), EU (London), EU (Stockholm), Asia Pacific (Mumbai), Asia Pacific (Seoul), Asia Pacific (Sydney), Asia Pacific (Tokyo), AWS GovCloud (US-West), and AWS GovCloud (US-East). &nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-inspector-now-available-europe-stockholm-region/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-codepipeline-achieves-hipaa-eligibility/">AWS CodePipeline Achieves HIPAA Eligibility</a></h3> 
+            <div class="date">
+              Posted On: Jul 19, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS CodePipeline is now a <a href="/compliance/hipaa-eligible-services-reference/" target="_blank">HIPAA Eligible Service</a>. If you have a HIPAA Business Associate Addendum (BAA) in place with AWS, you can now start using AWS CodePipeline for your HIPAA eligible workloads. If you do not have a BAA in place with AWS or have any other questions about running HIPAA-regulated workloads on AWS, please <a href="/compliance/contact/" target="_blank">contact us</a>.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-codepipeline-achieves-hipaa-eligibility/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/discovering-documents-made-easy-in-aws-systems-manager-automation/">Discovering Documents Made Easy in AWS Systems Manager Automation</a></h3> 
+            <div class="date">
+              Posted On: Jul 19, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Today, AWS Systems Manager updated the layout for the documents selection screen. Now, documents published by AWS are organized by use case so you can easily navigate and discover them. This update also includes the ability to view custom documents owned by you or shared with you, allowing you to quickly find your custom documents. &nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/discovering-documents-made-easy-in-aws-systems-manager-automation/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-ec2-amd-instances-available-in-additional-regions/">Amazon EC2 AMD Instances are Now Available in additional regions</a></h3> 
+            <div class="date">
+              Posted On: Jul 19, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Starting today, Amazon EC2 M5a, M5ad, R5a, R5ad, and T3a instances are available in additional regions.</p> 
+             <p>• M5a and R5a instances are now available in AWS Europe (Paris), US West (San Francisco), Canada (Montreal) and AWS GovCloud (US) Regions<br /> • M5ad and R5ad instances are now available in AWS Asia Pacific (Sydney), Canada (Montreal) and AWS GovCloud(US-West) Regions<br /> • T3a instances are now available in AWS Asia Pacific (Seoul, Sydney, Tokyo), Europe (Paris, London, Frankfurt), US West (San Francisco), Canada (Montreal) and AWS GovCloud (US) Regions</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-ec2-amd-instances-available-in-additional-regions/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-migration-hub-supports-import-of-on-premises-server-application-data-from-risc-networks-to-track-migration-progress/">AWS Migration Hub Now Supports Import of On-Premises Server and Application Data From RISC Networks to Plan and Track Migration Progress</a></h3> 
+            <div class="date">
+              Posted On: Jul 19, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS Migration Hub now supports import of on-premises server and application data exported directly from RISC Networks, an AWS Migration Competency Partner. &nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-migration-hub-supports-import-of-on-premises-server-application-data-from-risc-networks-to-track-migration-progress/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/usage-based-forecasting-in-aws-cost-explorer/">AWS Cost Explorer now Supports Usage-Based Forecasts </a></h3> 
+            <div class="date">
+              Posted On: Jul 18, 2019 
+            </div> 
+            <div class="description"> 
+             <p> Starting today, you can create custom usage forecasts using AWS Cost Explorer to gain a line of sight into your future usage patterns. Cost Explorer’s usage forecasts use a machine learning algorithm that learns your historical usage trends and uses that information to provide a forecast of your future usage. Using these forecasts, you can better understand your expected cost trends and monitor your key usage patterns (for example, storage, data transfer, or running hours). Please note that you can generate your usage forecasts and explore your cost and usage data programmatically via the <a href="https://docs.aws.amazon.com/aws-cost-management/latest/APIReference/API_GetUsageForecast.html" target="_blank">AWS Cost Explorer API</a>. </p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/usage-based-forecasting-in-aws-cost-explorer/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/resource-groups-and-tag-editor-now-supports-additional-aws-resources/">AWS Resource Groups and AWS Resource Groups Tag Editor Now Supports Additional AWS Resources</a></h3> 
+            <div class="date">
+              Posted On: Jul 15, 2019 
+            </div> 
+            <div class="description"> 
+             <p> AWS Resource Groups makes it easier to manage and automate tasks on large numbers of AWS resources at one time. AWS Resource Groups Tag Editor allows you to add tags to – or edit or delete tags of – multiple AWS resources at once. With Tag Editor, you can search for the resources that you want to tag, and then manage tags for the resources in your search results. Starting today, AWS Resource Groups supports 26 additional AWS resources including AWS Config Rules, AWS ElasticBeanstalk Applications, and AWS Resource Groups Tag Editor supports 6 additional AWS resources including AWS CloudWatch Alarms, AWS CloudFormation Stacks.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/resource-groups-and-tag-editor-now-supports-additional-aws-resources/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-vpc-cni-version-150-now-default-for-amazon-eks-clusters/">AWS VPC CNI Version 1.5.0 Now Default for Amazon EKS Clusters</a></h3> 
+            <div class="date">
+              Posted On: Jul 12, 2019 
+            </div> 
+            <div class="description"> 
+             <p><a href="https://github.com/aws/amazon-vpc-cni-k8s">AWS VPC Container Networking Interface (CNI) Plugin</a> version 1.5 is now the default CNI for new Kubernetes clusters launched by Amazon EKS.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-vpc-cni-version-150-now-default-for-amazon-eks-clusters/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/kinesis-video-streams-adds-support-for-dynamic-adaptive-streaming-over-http-dash-and-h-2-6-5-video/">Kinesis Video Streams adds support for Dynamic Adaptive Streaming over HTTP (DASH) and H.265 video</a></h3> 
+            <div class="date">
+              Posted On: Jul 12, 2019 
+            </div> 
+            <div class="description"> 
+             <p><a href="/kinesis/video-streams/">Amazon Kinesis Video Streams</a> Dynamic Adaptive Streaming over HTTP (DASH) capability enables developers to playback their ingested video streams using the industry-standard, HTTP-based media streaming protocol.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/kinesis-video-streams-adds-support-for-dynamic-adaptive-streaming-over-http-dash-and-h-2-6-5-video/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/new-aws-public-datasets-available-from-facebook-yale-allen/">New AWS Public Datasets Available from Facebook, Yale, Allen Institute for Brain Science, NOAA, and others</a></h3> 
+            <div class="date">
+              Posted On: Jul 12, 2019 
+            </div> 
+            <div class="description"> 
+             <p>New AWS Public Datasets Available from Facebook, Yale, Allen Institute for Brain Science, NOAA, and others.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/new-aws-public-datasets-available-from-facebook-yale-allen/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-ec2-i3en-instances-now-available-ncalifornia-asia-pacific-seoul/">Amazon EC2 I3en Instances are Now Available in US West (N. California) and Asia Pacific (Seoul) AWS Regions</a></h3> 
+            <div class="date">
+              Posted On: Jul 12, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Starting today, Amazon EC2 I3en instances are available in US West (N. California) and Asia Pacific (Seoul) AWS Regions. I3en global availability now includes the Asia Pacific (Tokyo, Seoul), Europe (Frankfurt, Ireland), US East (N. Virginia, Ohio), and US West (Oregon, N. California) AWS regions.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-ec2-i3en-instances-now-available-ncalifornia-asia-pacific-seoul/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/announcing-availability-of-amazon-kinesis-video-producer-sdk-in-c/">Announcing the availability of Amazon Kinesis Video Producer SDK in C</a></h3> 
+            <div class="date">
+              Posted On: Jul 12, 2019 
+            </div> 
+            <div class="description"> 
+             <p><a href="/kinesis/video-streams/">Amazon Kinesis Video Streams</a> producer SDKs are free and open software libraries for building applications that can stream audio and video data directly from an edge device to the AWS cloud for durable storage, playback, and machine learning based processing. Amazon Kinesis Video Streams producer SDK is now available in C.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/announcing-availability-of-amazon-kinesis-video-producer-sdk-in-c/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-robomaker-support-robot-operating-system-melodic/">AWS RoboMaker announces support for Robot Operating System (ROS) Melodic</a></h3> 
+            <div class="date">
+              Posted On: Jul 12, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS RoboMaker, a service that makes it easy to develop, simulate, and deploy intelligent robotics applications at scale, announces the support for ROS-Melodic Morenia, which is the latest long term support (LTS) release for ROS. Now with AWS RoboMaker, customers can build robotics applications with ROS-Melodic, in addition to the existing ROS-Kinetic distribution. </p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-robomaker-support-robot-operating-system-melodic/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-elemental-mediaconvert-now-ingests-files-from-https-sources/">AWS Elemental MediaConvert Now Ingests Files from HTTPS Sources</a></h3> 
+            <div class="date">
+              Posted On: Jul 12, 2019 
+            </div> 
+            <div class="description"> 
+             <p><a href="https://aws.amazon.com/mediaconvert/">AWS Elemental MediaConvert</a> can now ingest video files from HTTP and HTTPS sources. With the ability to transcode content from sources other than Amazon S3, you are no longer required to build logic to copy files into S3 in order to use MediaConvert. This feature is available at no additional charge. To learn, more please <a href="https://docs.aws.amazon.com/mediaconvert/latest/ug/upload-input-files.html#http-input-requirements">read the documentation</a>.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-elemental-mediaconvert-now-ingests-files-from-https-sources/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-glue-available-in-aws-south-america-region/">AWS Glue is now available in the AWS South America (Sao Paulo) Region</a></h3> 
+            <div class="date">
+              Posted On: Jul 12, 2019 
+            </div> 
+            <div class="description"> 
+             <p>You can now use AWS Glue in the AWS South America (Sao Paulo) Region.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-glue-available-in-aws-south-america-region/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/microsoft-workloads-competency-technology-partners/">New AWS Competency Partners to migrate Microsoft Workloads to AWS</a></h3> 
+            <div class="date">
+              Posted On: Jul 12, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Customers have been running Windows workloads on AWS for over a decade. We run nearly 2x more Windows Server instances than the next largest cloud provider, according to an <a href="https://pages.awscloud.com/IDC-Windows-Server-Market-Update.html?trk=ar_card" target="_blank">IDC report.</a> Our <a href="/windows/?analyst-reports-windows.sort-by=item.additionalFields.datePublished&amp;analyst-reports-windows.sort-order=desc" target="_blank">experience running Windows applications</a> has earned our customers’ trust and the number of AWS enterprise customers using Amazon EC2 for Windows Server has grown 5x since 2015.</p> 
+             <p>Today, we are excited to announce the AWS Microsoft Workloads Competency for APN Advanced Technology Partners, offering products based on varying phases of a customer’s journey to the AWS Cloud including migration assessment, migration, post-migration operational optimization, enhancement through analytics and Machine Learning, and modernization. The AWS Microsoft Workloads Competency reduces a customer’s time and effort in finding a capable and trusted APN Technology Partner for their Microsoft Workloads environment on AWS.</p> 
+             <p>Interested in becoming an AWS Microsoft Workloads Competency Partner? <a href="/partners/competencies/" target="_blank">See the requirements and next steps here</a>.</p> 
+             <p>Interested in working with an AWS Microsoft Workloads Technology Partner? <a href="/windows/partner-solutions/" target="_blank">See the validated AWS Microsoft Workload Technology Partners here</a>. &nbsp;</p> 
+             <p><a href="https://aws.amazon.com/blogs/apn/more-reasons-for-customers-to-migrate-their-microsoft-workloads-to-aws/" target="_blank">Learn more on the APN Blog</a>.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/microsoft-workloads-competency-technology-partners/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/the-aws-cloud-development-kit-aws-cdk-is-now-generally-available1/">The AWS Cloud Development Kit (AWS CDK) is Now Generally Available</a></h3> 
+            <div class="date">
+              Posted On: Jul 11, 2019 
+            </div> 
+            <div class="description"> 
+             <p> The AWS Cloud Development Kit (AWS CDK) is now generally available in TypeScript and Python. AWS CDK is an open source software development framework to model and provision your cloud application resources using familiar programming languages. With AWS CDK, you can define your infrastructure as code and provision it through AWS CloudFormation. AWS CDK is also available in Java and C# in developer preview.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/the-aws-cloud-development-kit-aws-cdk-is-now-generally-available1/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/introducing-amazon-eventbridge/">Introducing Amazon EventBridge</a></h3> 
+            <div class="date">
+              Posted On: Jul 11, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Amazon EventBridge is a serverless event bus that makes it easy to connect applications together using data from your own applications, Software-as-a-Service (SaaS) applications, and AWS services. EventBridge delivers a stream of real-time data from event sources, such Zendesk, Datadog, or Pagerduty, and routes that data to targets like AWS Lambda. You can set up routing rules to determine where to send your data to build application architectures that react in real time to all of your data sources. EventBridge allows you to build event-driven architectures, which are loosely coupled and distributed. This improves developer agility as well as application resiliency. EventBridge makes it easy to build event-driven applications because it takes care of event ingestion and delivery, security, authorization, and error-handling for you. EventBridge leverages the CloudWatch Events API, so CloudWatch Events users can access their existing default bus, rules, and events in the new EventBridge console, as well as in the CloudWatch Events console.<br /> </p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/introducing-amazon-eventbridge/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/announcing-aws-toolkit-for-visual-studio-code/">The AWS Toolkit for Visual Studio Code is Now Generally Available</a></h3> 
+            <div class="date">
+              Posted On: Jul 11, 2019 
+            </div> 
+            <div class="description"> 
+             <p>The AWS Toolkit for Visual Studio Code, an open source plug-in that makes it easier to create, step-through debug, build, and deploy applications, is now Generally Available. The toolkit supports .NET, node.js and Python applications and provides deep support for serverless applications at launch with other AWS services planned for the future. The toolkit had previously been in developer preview.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/announcing-aws-toolkit-for-visual-studio-code/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-direct-connect-launches-third-location-in-new-york-metro-area/">AWS Direct Connect launches third location in New York Metro Area</a></h3> 
+            <div class="date">
+              Posted On: Jul 11, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS Direct Connect is now live at Equinix NY5, Secaucus, NJ. This location offers logical redundancy over a single virtual interface (VIF) on a Direct Connect connection. <a href="/about-aws/whats-new/2018/11/aws-direct-connect-launches-logical-redundancy-over-a-single-vir/">Logical redundancy</a> can reduce downtime when a BGP peering session goes down due to a device failure or maintenance activity on the AWS side. With global access for AWS Direct Connect, you can reach AWS resources in any global AWS region using global public VIFs and Direct Connect gateway. When connecting to any AWS region, your data will not hairpin via the home region if it is not in the shortest path to your desired AWS region.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-direct-connect-launches-third-location-in-new-york-metro-area/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-resource-groups-is-now-soc-compliant/">AWS Resource Groups is Now SOC Compliant</a></h3> 
+            <div class="date">
+              Posted On: Jul 11, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS Resource Groups, a service that makes it easier to manage and automate tasks on large numbers of AWS resources at one time, is now a Service Organization Control (SOC) compliant service. This compliance certification applies to all AWS Regions where AWS Resource Groups is available.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-resource-groups-is-now-soc-compliant/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-ecs-now-offers-improved-capabilities-for-local-testing/">Amazon ECS now offers improved capabilities for local testing</a></h3> 
+            <div class="date">
+              Posted On: Jul 11, 2019 
+            </div> 
+            <div class="description"> 
+             <p>The open source ecs-cli tool now has improved capabilities for testing ECS task definitions locally. Using the ecs-cli, you can run ECS task definitions in a local development environment, such as a laptop or virtual machine.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-ecs-now-offers-improved-capabilities-for-local-testing/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/large-match-support-for-amazon-gameLift-now-available/">Large Match Support for Amazon GameLift Now Available </a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Players expect multiplayer game sessions to be fast and full. But with the rise of Battle Royale games and other player-intensive games, ensuring a consistent and fulfilling matchmaking experience can be a challenge for developers.</p> 
+             <p>That’s why today we’re excited to announce Large Match Support for Amazon GameLift. With this update, you can now match and connect up to 200 players to a single game session on the lowest latency server instance available—all based upon a custom rule you define. We’ve also added some other new functionality that makes it even easier to support games with larger player counts, including:</p> 
+             <ul> 
+              <li><b>Create multiple teams from one definition.</b> Rather than defining team compositions separately, you can now easily create teams by specifying one team template for creating as many teams as needed for your game.</li> 
+             </ul> 
+             <div>
+               &nbsp; 
+             </div> 
+             <ul> 
+              <li><b>Easier backfilling of open player slots.</b> We’ve automated backfilling, so you can keep matches full without causing long player wait times. Matchmaking backfill will automatically add a new player to a match even after a game has started and will prioritize filling a match before creating a new match.</li> 
+             </ul> 
+             <p>GameLift is available in the following 15 AWS Regions: US East (N. Virginia and Ohio), US West (Oregon and N. California), Central Canada (Montreal), EU Central (Frankfurt), EU West (London and Ireland), Asia Pacific South (Mumbai), Asia Pacific Northeast (Seoul and Tokyo), Asia Pacific Southeast (Singapore and Sydney), South America East (S&atilde;o Paulo), and China (Beijing).</p> 
+             <p>To learn more about GameLift and Large Match Support, visit the <a href="https://aws.amazon.com/gamelift/" target="_blank">Amazon GameLift Product detail page</a> and read the <a href="https://aws.amazon.com/blogs/gametech/large-match-support/">Game Tech blog</a>.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/large-match-support-for-amazon-gameLift-now-available/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-cloud-map-available-in-aws-south-america-sao-paulo-region/">AWS Cloud Map Available in AWS South America (S&atilde;o Paulo) Region</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS Cloud Map is now available in the AWS South America (S&atilde;o Paulo) Region.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-cloud-map-available-in-aws-south-america-sao-paulo-region/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-container-services-launches-aws-for-fluent-bit/">AWS Container Services launches Fluent Bit Plugins for AWS</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS Container Services launches AWS Fluent Bit, a container image pre-installed with <a href="/cloudwatch/">Amazon CloudWatch</a> and <a href="/kinesis/data-firehose/">Amazon Kinesis Data Firehose</a> plugins that helps customers route container logs to multiple destinations such as CloudWatch, <a href="/s3/">Amazon S3</a>, <a href="/redshift/">Amazon Redshift</a>, and <a href="/elasticsearch-service/">Amazon Elasticsearch Service</a>. &nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-container-services-launches-aws-for-fluent-bit/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-license-manager-now-available-asia-pacific-hong-kong-region/">AWS License Manager is now available in the Asia Pacific (Hong Kong) Region</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS License Manager is now available in the Asia Pacific (Hong Kong) region. See the <a href="/about-aws/global-infrastructure/regional-product-services/">AWS Region Table</a> for the list of regions where License Manager is currently available. AWS License Manager is offered at no additional charges. To learn more about this service, visit the <a href="https://docs.aws.amazon.com/license-manager/index.html#lang/en_us">product documentation</a>, and <a href="/license-manager/faqs/">FAQ page</a>.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-license-manager-now-available-asia-pacific-hong-kong-region/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amplify-framework-now-supports-adding-aws-lambda-triggers-for-events-auth-storage-categories/">Amplify Framework now Supports Adding AWS Lambda Triggers for events in Auth and Storage categories</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Starting today, the Amplify CLI (part of the open source <a href="https://aws-amplify.github.io/">Amplify Framework</a>) includes support for adding and configuring AWS Lambda triggers for events when using Amazon Cognito, Amazon Simple Storage Service, and Amazon DynamoDB as event sources. This enables developers to setup customized authentication flows for their mobile and web applications from the Amplify CLI using Amazon Cognito User Pool as an authentication provider. &nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amplify-framework-now-supports-adding-aws-lambda-triggers-for-events-auth-storage-categories/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/introducing-container-insights-for-ecs-and-aws-fargate-in-preview/">Introducing Amazon CloudWatch Container Insights for Amazon ECS and AWS Fargate - Now in Preview</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Amazon CloudWatch Container Insights is now available in preview to monitor, isolate, and diagnose your containerized applications and microservices environments. With this preview, DevOps and systems engineers have access to automated dashboards summarizing the performance and health of their <a href="/ecs/">Amazon Elastic Container Service (ECS)</a> and <a href="/fargate/">AWS Fargate</a> clusters by tasks, containers, and services. &nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/introducing-container-insights-for-ecs-and-aws-fargate-in-preview/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-codebuild-adds-support-for-polyglot-builds/">AWS CodeBuild adds Support for Polyglot Builds</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p><a href="https://aws.amazon.com/codebuild/" target="_blank">AWS CodeBuild</a> now supports polyglot builds in <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/build-env-ref-available.html" target="_blank">CodeBuild’s managed images</a>. Previously, you could only specify a single programming language runtime in these CodeBuild managed images. In order to perform a polyglot build, you either had to rely on a self-managed build images with various runtimes pre-installed or you had to install these additional runtimes inline in your buildspec.</p> 
+             <p>Now, you can simply <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/sample-runtime-versions.html#sample-runtime-two-major-version-runtimes" target="_blank">specify one or more programming language versions</a> in your buildspec for your build needs. This is made possible by a concept called &quot;runtime-versions&quot;. With runtime-versions, you can also <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/sample-runtime-versions.html#sample-runtime-update-version" target="_blank">specify which major version</a> of the runtime should be enabled for your builds.</p> 
+             <p>To learn more about &quot;runtime-versions&quot; please visit our <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/sample-runtime-versions.html" target="_blank">documentation</a>. Please visit our <a href="https://aws.amazon.com/codebuild/" target="_blank">product page</a> or <a href="https://console.aws.amazon.com/codebuild" target="_blank">the console</a> to learn more about how to get started with AWS CodeBuild.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-codebuild-adds-support-for-polyglot-builds/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-amplify-console-announces-manual-deploys-for-static-web-hosting/">AWS Amplify Console announces Manual Deploys for Static Web Hosting</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Amplify Console now provides developers the ability to host a web app by simply uploading a folder from their desktop, or linking to a zip file stored in an S3 bucket or external server. &nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-amplify-console-announces-manual-deploys-for-static-web-hosting/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/optimize-cost-amazon-efs-infrequent-access-lifecycle-management/">Optimize Cost with Amazon EFS Infrequent Access Lifecycle Management </a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>You can now choose from four Amazon Elastic File System (Amazon EFS) Lifecycle Management policies to automatically move files into the EFS Infrequent Access (EFS IA) storage class and save up to 85% as your access patterns change. Additionally, you can now enable Lifecycle Management for all EFS file systems.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/optimize-cost-amazon-efs-infrequent-access-lifecycle-management/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-ec2-fleet-functionality-is-now-available-via-ec2-auto-scaling-in-the-aws-govcloud-us-west-region/">Amazon EC2 Fleet Functionality is Now Available via EC2 Auto Scaling in the AWS GovCloud (US-West) Region</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Amazon EC2 Auto Scaling now lets you provision and automatically scale instances across purchase options, Availability Zones (AZ), and instance families in a single Auto Scaling group (ASG), to optimize scale, performance, and cost. Now you can include <a href="/ec2/spot/">Spot Instances</a> with On-Demand and RIs in a single ASG, to save up to 90% on compute in the AWS GovCloud (US-West) Region.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-ec2-fleet-functionality-is-now-available-via-ec2-auto-scaling-in-the-aws-govcloud-us-west-region/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-fsx-for-lustre-is-now-available-in-london/">Amazon FSx for Lustre is Now Available in the EU (London) Region</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Amazon FSx for Lustre is now available in the AWS EU (London) Region.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-fsx-for-lustre-is-now-available-in-london/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-fsx-for-windows-file-server-is-now-available-in-london/">Amazon FSx for Windows File Server is Now Available in the EU (London) Region</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Amazon FSx for Windows File Server is now available in the AWS EU (London) Region.<br /> </p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-fsx-for-windows-file-server-is-now-available-in-london/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-config-now-enables-you-to-provision-config-rules-across-all-aws-accounts-in-your-organization/">AWS Config now enables you to provision AWS Config rules across all AWS accounts in your organization</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS Config now supports a <a href="https://docs.aws.amazon.com/config/latest/developerguide/config-rule-multi-account-deployment.html">new set of APIs</a> to manage AWS Config rules across your organization in AWS Organizations. Using this capability, you can centrally create, update, and delete AWS Config rules across all accounts in your organization. This capability is particularly useful if you have a need to deploy a common set of AWS Config rules across all accounts. You can also specify accounts where AWS Config rules should not be created. In addition, you can use these APIs from the master account in AWS Organizations to enforce governance by ensuring that the underlying AWS Config rules are not modifiable by your organization’s member accounts.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-config-now-enables-you-to-provision-config-rules-across-all-aws-accounts-in-your-organization/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/introducing-aws-budgets-reports/">Introducing AWS Budgets Reports</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p> Starting today, you can create and send daily, weekly, or monthly reports to monitor the performance of your AWS Budgets. Using the new AWS Budgets Reports console, you can easily select the subset of budgets that you would like to include in your report, define the delivery frequency, and specify your email recipients. For example, you can create a report that monitors all budgets for linked accounts belonging to a particular business unit and have that report delivered each morning to that business unit’s engineering, product, and finance leaders.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/introducing-aws-budgets-reports/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/session-manager-launches-tunneling-support-for-ssh-and-scp/">Session Manager launches tunneling support for SSH and SCP</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>You can now use AWS Systems Manager Session Manager to tunnel SSH (Secure Shell) and SCP (Secure Copy) traffic between a client and a server.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/session-manager-launches-tunneling-support-for-ssh-and-scp/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/session-manager-launches-run-as-to-start-interactive-sessions-with-your-own-operating-system-user-account/">Session Manager launches Run As to start interactive sessions with your own operating system user account</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS Systems Manager Session Manager now lets you define the operating system user account that an interactive shell uses on an instance. You can associate an operating system user with your IAM principal (user or role) for Session Manager. You can also set the operating system user in your Session Manager preferences. This enables you to better manage shell privileges for multiple users that need interactive access to instances.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/session-manager-launches-run-as-to-start-interactive-sessions-with-your-own-operating-system-user-account/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-elemental-medialive-now-supports-aws-cloudformation/">AWS Elemental MediaLive Now Supports AWS CloudFormation</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>You can now use <a href="https://aws.amazon.com/cloudformation/">AWS CloudFormation</a> templates to create and configure AWS Elemental MediaLive channels (both inputs and outputs). This improvement enables you to use AWS CloudFormation to deploy MediaLive resources in a secure, efficient, and repeatable way.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-elemental-medialive-now-supports-aws-cloudformation/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/introducing-amazon-cloudwatch-anomaly-detection-now-in-preview/">Introducing Amazon CloudWatch Anomaly Detection – Now in Preview</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Amazon CloudWatch Anomaly Detection applies machine-learning algorithms to continuously analyze system and application metrics, determine a normal baseline, and surface anomalies with minimal user intervention. You can use Anomaly Detection to isolate and troubleshoot unexpected changes in your metric behavior. <br /> </p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/introducing-amazon-cloudwatch-anomaly-detection-now-in-preview/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-iot-expands-globally/">AWS IoT Expands Globally</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS IoT Core, AWS IoT Device Management, and AWS IoT Device Defender are now available in multiple additional regions. <br /> </p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-iot-expands-globally/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-aurora-with-postgresql-compatibility-supports-serverless/">Amazon Aurora with PostgreSQL Compatibility Supports Serverless</a></h3> 
+            <div class="date">
+              Posted On: Jul 9, 2019 
+            </div> 
+            <div class="description"> 
+             <p><a href="https://aws.amazon.com/rds/aurora/serverless/" target="_blank">Amazon Aurora Serverless</a> is now available for Amazon Aurora with PostgreSQL compatibility. It is a new deployment option that automatically starts, scales, and shuts down an <a href="https://aws.amazon.com/rds/aurora/" target="_blank">Amazon Aurora</a> database, and it offers database capacity without the need to provision, scale, and manage any database servers.</p> 
+             <p>Many applications have intermittent or cyclical usage patterns. For example, retail applications experience seasonal spikes, development and test workloads require database access only at certain times of the day or week, and new applications face unknown usage demands. This creates a capacity planning dilemma, since you must either over-provision database capacity upfront and pay for resources you won’t use, or under-provision resources and risk performance problems and a poor user experience.<br /> <br /> With Amazon Aurora Serverless, you no longer have to provision or manage database capacity. The database automatically and quickly starts, scales, shuts down, and starts up again in seconds, based on the needs of the workload. You simply create an endpoint through the <a href="https://console.aws.amazon.com/rds" target="_blank">Amazon RDS Management Console</a>, and Amazon Aurora Serverless handles the rest. You <a href="https://aws.amazon.com/rds/aurora/pricing/" target="_blank">pay by the second</a>, and only when the database is in use.<br /> <br /> Read about Aurora Serverless on the <a href="http://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-serverless-now-generally-available" target="_blank">AWS Blog</a>, the Aurora Serverless <a href="https://aws.amazon.com/rds/aurora/" target="_blank">product page</a>, and in the <a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless.html" target="_blank">Aurora documentation</a>.<br /> <br /> Amazon Aurora is a fully managed relational database that combines the performance and availability of high-end commercial databases with the simplicity and cost-effectiveness of open source databases. Aurora PostgreSQL Serverless is available in the US East (N. Virginia), US East (Ohio), US West (Oregon), EU (Ireland), and Asia Pacific (Tokyo) regions, and will expand to additional regions in the coming year.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-aurora-with-postgresql-compatibility-supports-serverless/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-elasticsearch-service-increases-data-protection-with-automated-hourly-snapshots-at-no-extra-charge/">Amazon Elasticsearch Service increases data protection with automated hourly snapshots at no extra charge</a></h3> 
+            <div class="date">
+              Posted On: Jul 8, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Amazon Elasticsearch Service has increased its snapshot frequency from daily to hourly, providing more granular recovery points. If you need to restore your cluster, you now have numerous, recent snapshots to choose from. These automated snapshots are retained for 14 days at no extra charge.<br /> </p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-elasticsearch-service-increases-data-protection-with-automated-hourly-snapshots-at-no-extra-charge/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-elemental-mediaconvert-expands-audio-support-and-improves-performance/">AWS Elemental MediaConvert Expands Audio Support, Adds Priority Setting, and Improves Performance</a></h3> 
+            <div class="date">
+              Posted On: Jul 23, 2019 
+            </div> 
+            <div class="description"> 
+             <p><a href="https://aws.amazon.com/mediaconvert/">AWS Elemental MediaConvert</a>&nbsp;has expanded support for audio formats and improved overall transcode performance. With new audio-only outputs for HLS, AAC with MP4, and WAV with PCM, you have more options for delivering audio-only content to users for music, podcasting, radio, audio books, and more. In addition, MediaConvert has significantly improved performance for non-accelerated jobs, reducing the time required for creating VOD assets so you can make your media available to end users even faster and start monetizing new content sooner.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-elemental-mediaconvert-expands-audio-support-and-improves-performance/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-rds-postgresql-supports-minor-version-114/">Amazon RDS for PostgreSQL Supports New Minor Versions 11.4, 10.9, 9.6.14, 9.5.18, and 9.4.23 </a></h3> 
+            <div class="date">
+              Posted On: Jul 3, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Following the recent announcement of updates to the <a href="https://www.postgresql.org/about/news/1949/">PostgreSQL database</a>, we have updated <a href="https://aws.amazon.com/rds/postgresql/">Amazon RDS for PostgreSQL</a> to support PostgreSQL minor versions. This release contains an important security fix&nbsp;and also bug fixes and improvements done by the PostgreSQL community.&nbsp;</p> 
+             <p>With this release, pg_hint_plan extension has been updated for PostgreSQL versions 11, 10, 9.6 and 9.5.</p> 
+             <p>Amazon RDS for PostgreSQL makes it easy to set up, operate, and scale PostgreSQL deployments in the cloud. Learn more about upgrading your database instances from the <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.PostgreSQL.html">Amazon RDS User Guide</a>. See <a href="https://aws.amazon.com/rds/postgresql/pricing/">Amazon RDS for PostgreSQL Pricing</a>&nbsp;for pricing details and regional availability.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-rds-postgresql-supports-minor-version-114/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-documentdb-provides-cluster-deletion-protection/">Amazon DocumentDB (with MongoDB compatibility) Now Provides Cluster Deletion Protection</a></h3> 
+            <div class="date">
+              Posted On: Jul 3, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Amazon DocumentDB is a fast, scalable, highly available, and fully managed document database service that supports MongoDB workloads.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-documentdb-provides-cluster-deletion-protection/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/us-commercial-regions-now-accept-chinese-yuan-payments-from-china-based-customers/">US commercial regions now accept Chinese Yuan payments from China based customers.</a></h3> 
+            <div class="date">
+              Posted On: Jul 3, 2019 
+            </div> 
+            <div class="description"> 
+             <p>AWS now supports China based customers, who use services in US commercial regions, to pay their invoices from Amazon Web Services, Inc. (“AWS Inc.”) in Chinese Yuan through a China UnionPay credit card. &nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/us-commercial-regions-now-accept-chinese-yuan-payments-from-china-based-customers/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-waf-and-shield-advanced-available-eu-canada--asia-pacific-south-america/">AWS WAF and AWS Shield Advanced Now Available in EU (Paris), Canada (Central), Asia Pacific (Mumbai), and South America (Sao Paulo)</a></h3> 
+            <div class="date">
+              Posted On: Jul 3, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Starting today, AWS WAF and AWS Shield Advanced are available in four new regions: EU (Paris), Canada (Central), Asia Pacific (Mumbai), and South America (Sao Paulo).&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-waf-and-shield-advanced-available-eu-canada--asia-pacific-south-america/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-amplify-console-updates-build-image-sam-cli-and-custom-container-support/">AWS Amplify Console Updates Build image with SAM CLI and Custom Container Support</a></h3> 
+            <div class="date">
+              Posted On: Jul 2, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Today, the Amplify Console launched several updates to the build service including SAM CLI and custom container support. The Amplify Console offers a Git-based workflow for continuously deploying and hosting fullstack serverless web apps. <br /> </p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-amplify-console-updates-build-image-sam-cli-and-custom-container-support/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/industrial-software-competency/">AWS Industrial Software Competency to bring the next wave of highly qualified Advanced and Premier APN Consulting Partners with deep specialization in Industrial IT</a></h3> 
+            <div class="date">
+              Posted On: Jul 2, 2019 
+            </div> 
+            <div class="description"> 
+             <p>The <a href="/partners/" target="_blank">AWS Partner Network (APN)</a> launched the <a href="/manufacturing/partner-solutions/" target="_blank">AWS Industrial Software Competency</a> in 2018 that verifies, validates, and vets top <a href="https://aws.amazon.com/blogs/apn/how-aws-industrial-software-competency-partners-are-shaping-the-next-industrial-revolution/" target="_blank">APN Technology Partners</a> with solutions for an end-to-end Industrial Software value chain. These Independent Software Vendors (ISVs) provide technology offerings targeting one or more of the primary steps in discrete manufacturing or process industries: Product Design, Production Design, and Production/Operations.</p> 
+             <p>Launching soon, a correlative track for best-in-class APN Consulting Partners designed to connect customers with highly-specialized Industrial Software System Integrators. These APN Partners can help customers achieve meaningful outcomes and support exploration and integration with top solutions designed specifically for this industry.</p> 
+             <p>To receive the AWS Industrial Software Competency designation, APN Partners must undergo rigorous technical validation related to industry-specific technology, as well as an assessment of the security, performance, and reliability of their AWS solutions. This validation gives customers complete confidence in choosing top APN Partner solutions from the tens of thousands in the AWS Partner Network.</p> 
+             <p>APN Consulting Partners with the AWS Industrial Software Competency will support the following categories:</p> 
+             <ul> 
+              <li><b>Product Design:</b> Applications and services used in the design phase, including Computer Aided Design (CAD), Computer Aided Engineering (CAE), Electronic Design Automation (EDA), Product Lifecycle Management (PLM), Product Data Management (PDM), and Civil Engineering</li> 
+              <li><b>Production Design:</b> Applications for factory layout and Computer-Aided Manufacturing (CAM), Product Lifecycle Management (PLM), Product Data Management (PDM)</li> 
+              <li><b>Production &amp; Operations:</b> Discrete and process industry applications like Manufacturing Execution Systems (MES), Manufacturing Operations Management (MOM), Plant Information Management System (PIMS), supply chain logistics, Industrial Internet of Things (IIoT), analytic applications for industrial use, and manufacturing specific Enterprise Resource Planning (ERP) solutions</li> 
+             </ul> 
+             <p>Congratulations to the Advanced and Premier tier APN Partners that are paving the way for this new AWS Competency designation:</p> 
+             <p><b><a href="https://www.reply.com/storm-reply/en/?utm_source=AWSWebsite&amp;utm_medium=referral&amp;utm_campaign=AWSIndustrialCompetency&amp;utm_term=&amp;utm_content=" target="_blank">Storm Reply</a></b></p> 
+             <p><i>Premier APN Consulting Partner based in Italy</i><br /> With a deep knowledge of the business processes of industrial and manufacturing companies, Storm Reply supports customers to build Industrial IoT solutions and provides digital platform to process real time data coming from factories, providing services on top like Machine Learning training and computation, big data processing, data warehousing and business logic.</p> 
+             <p><a href="https://www2.deloitte.com/us/en/pages/about-deloitte/solutions/deloitte-aws-relationship.html" target="_blank"><b>Deloitte</b></a></p> 
+             <p><i>Premier APN Consulting Partner based in US</i><br /> The manufacturing industry is ever changing. Rapid globalization, technological advancements, changing consumer preferences, and evolving government policies are reshaping the manufacturing industry, exponentially accelerating the pace of competition and continually raising the bar on company performance. Deloitte serves more than 95% of the Fortune 500 Industrial Manufacturing companies and can help anticipate, plan for, and manage the dramatic swings that characterize this market.</p> 
+             <p><a href="https://www.accenture.com/us-en/industries/industrial-equipment-index" target="_blank"><b>Accenture&nbsp;</b></a></p> 
+             <p><i>Premier APN Consulting Partner based in US</i><br /> Accenture is a leading global professional services company, providing a broad range of services and solutions in strategy, consulting, digital, technology and operations. Accenture helps help Industrial Equipment companies digitally transform their business through smart, connected and living technologies, to become Industry X.0 businesses.</p> 
+             <p><a href="https://www.wipro.com/process-and-industrial-manufacturing/" target="_blank"><b>Wipro&nbsp;</b></a></p> 
+             <p><i>Premier APN Consulting Partner based in India</i><br /> Wipro helps Industrial and Manufacturing businesses in their digital transformation journey of achieving operational excellence and superior customer experience across the entire value chain through continuous innovation, leveraging a combination of its own IPs and Platforms and the power of an unparalleled ecosystem of partners like AWS.</p> 
+             <p>Contact your Partner Development Manager (PDM) to learn more about becoming an AWS Industrial Software Competency Partner! You can find the <a href="https://s3-us-west-2.amazonaws.com/competency.awspartner.com/Industrial+Software/AWS+Indistrial+Software+Competency+Consulting+Partner+Validation+Checklist.pdf" target="_blank">requirements here</a>.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/industrial-software-competency/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-documentdb-supports-stopping-starting-cluters/">Amazon DocumentDB (with MongoDB compatibility) Now Supports Stopping and Starting Clusters</a></h3> 
+            <div class="date">
+              Posted On: Jul 2, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Amazon DocumentDB is a fast, scalable, highly available, and fully managed document database service that supports MongoDB workloads.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-documentdb-supports-stopping-starting-cluters/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-codecommit-now-supports-resource-tagging/">AWS CodeCommit Now Supports Resource Tagging</a></h3> 
+            <div class="date">
+              Posted On: Jul 2, 2019 
+            </div> 
+            <div class="description"> 
+             <p>You can now assign tags to AWS CodeCommit repositories. With tags, you can group and find repositories with a common tag as well as define&nbsp;AWS Identity and Access Management (IAM) permissions based on tags. You can tag existing repositories as well as add tags to new repositories when you create them.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-codecommit-now-supports-resource-tagging/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-dynamodb-now-supports-deleting-a-global-secondary-index-before-it-finishes-building/">Amazon DynamoDB now supports deleting a global secondary index before it finishes building</a></h3> 
+            <div class="date">
+              Posted On: Jul 2, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Now, you can use the <a href="https://aws.amazon.com/dynamodb/" target="_blank">Amazon DynamoDB</a> console or the <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_UpdateTable.html" target="_blank">UpdateTable</a> API/CLI to delete a global secondary index even as it’s being created. Previously, you could not cancel the creation of a global secondary index—indexes could only be deleted once they finished building. This can help you save time if you no longer want a global secondary index or if you want a new global secondary index with different attribute projections. To learn more, see <a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GSI.OnlineOps.html#GSI.OnlineOps.Deleting" target="_blank">Deleting a Global Secondary Index From a Table</a> in the DynamoDB Developer Guide.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-dynamodb-now-supports-deleting-a-global-secondary-index-before-it-finishes-building/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon_rds_introduces_compatibility_checks/">Amazon RDS Introduces Compatibility Checks for Upgrades from MySQL 5.7 to MySQL 8.0</a></h3> 
+            <div class="date">
+              Posted On: Jul 2, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Amazon Relational Database Service (RDS) now performs checks to confirm compatibility of your MySQL 5.7 database with MySQL 8.0, and stops the upgrade if incompatibilities are found. &nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon_rds_introduces_compatibility_checks/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon_aurora_supportscloningacrossawsaccounts-/">Amazon Aurora Supports Cloning Across AWS Accounts</a></h3> 
+            <div class="date">
+              Posted On: Jul 2, 2019 
+            </div> 
+            <div class="description"> 
+             <p>You can now share your Amazon Aurora DB clusters with other AWS accounts for quick and efficient database cloning.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon_aurora_supportscloningacrossawsaccounts-/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-api-gateway-supports-tag-based-access-control-tags-on-websocket/">Amazon API Gateway Now Supports Tag-Based Access Control and Tags on WebSocket APIs</a></h3> 
+            <div class="date">
+              Posted On: Jul 1, 2019 
+            </div> 
+            <div class="description"> 
+             <p>Amazon API Gateway now offers tag-based access control for WebSocket APIs using AWS Identity and Access Management (IAM) policies, enabling you to easily categorize API Gateway resources for WebSocket APIs by purpose, owner, or other criteria. &nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-api-gateway-supports-tag-based-access-control-tags-on-websocket/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-dynamodb-now-supports-up-to-25-unique-items-and-4-mb-of-data-per-transactional-request-in-the-aws-china-beijing-region-operated-by-sinnet-and-the-aws-china-ningxia-region-operated-by-nwcd/">Amazon DynamoDB now supports up to 25 unique items and 4 MB of data per transactional request in the AWS China (Beijing) Region, Operated by Sinnet, and the AWS China (Ningxia) Region, Operated by NWCD</a></h3> 
+            <div class="date">
+              Posted On: Jul 1, 2019 
+            </div> 
+            <div class="description"> 
+             <p><a href="https://aws.amazon.com/dynamodb/" target="_blank">Amazon DynamoDB</a> now supports up to 25 unique items and 4 MB of data per transactional request in the AWS China (Beijing) Region, Operated by Sinnet, and the AWS China (Ningxia) Region, Operated by NWCD. Transactions enable developers to simplify their code and support workflows and business logic that require adding, updating, or deleting multiple items as a single, all-or-nothing operation.&nbsp;</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/amazon-dynamodb-now-supports-up-to-25-unique-items-and-4-mb-of-data-per-transactional-request-in-the-aws-china-beijing-region-operated-by-sinnet-and-the-aws-china-ningxia-region-operated-by-nwcd/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+           <li class="directory-item text whats-new"> <h3><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-codebuild-now-available-in-the-aws-govcloud--us-east--region/">AWS CodeBuild Now Available in the AWS GovCloud (US-East) Region</a></h3> 
+            <div class="date">
+              Posted On: Jul 1, 2019 
+            </div> 
+            <div class="description"> 
+             <p><a href="https://aws.amazon.com/codebuild/" target="_blank">AWS CodeBuild</a> is now available to customers in the AWS GovCloud (US-East) Region.</p> 
+             <p>AWS CodeBuild is a fully managed continuous integration service in the cloud. CodeBuild compiles source code, runs tests, and produces software packages that are ready to deploy. With CodeBuild, you don’t need to provision, manage, and scale your own build servers. CodeBuild scales continuously and processes multiple builds concurrently, so your builds are not left waiting in a queue. You can get started quickly by using prepackaged build environments, or you can create custom build environments that use your own build tools. For more information, visit the <a href="https://aws.amazon.com/codebuild/" target="_blank">CodeBuild product page</a>.</p> 
+             <p>AWS GovCloud (US) is Amazon's isolated cloud infrastructure and services designed to address specific regulatory and compliance requirements of US Government agencies, as well as contractors, educational institutions, and other US customers that run sensitive workloads in the cloud.</p> 
+             <p>To learn more about AWS CodeBuild, visit our <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/welcome.html" target="_blank">documentation</a>. To see all regions where CodeBuild is available, see the <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/" target="_blank">AWS region table</a>.</p> 
+            </div> 
+            <div class="reg-cta"> 
+             <b><a href="//aws.amazon.com/about-aws/whats-new/2019/07/aws-codebuild-now-available-in-the-aws-govcloud--us-east--region/">Read More&nbsp;&raquo;</a></b> 
+            </div> </li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </section> 
+     </main> 
+    </div> 
+   </div> 
+  </div> 
+  <footer id="aws-page-footer" class="m-page-footer" role="contentinfo"> 
+   <div class="data-attr-wrapper lb-none-v-margin lb-xb-grid-wrap" style="background-color:#242F3E;" data-da-type="so" data-da-so-type="viewport" data-da-so-language="en" data-da-so-category="monitoring" data-da-so-name="footer" data-da-so-version="a"> 
+    <div class="lb-xb-grid lb-row-max-large lb-snap lb-tiny-xb-1 lb-small-xb-3 lb-large-xb-5"> 
+     <div class="lb-xbcol"> 
+      <div class="data-attr-wrapper lb-small-hide lb-btn" data-da-type="so" data-da-so-type="viewport" data-da-so-language="en" data-da-so-category="monitoring" data-da-so-name="footer_buttons" data-da-so-url="all" data-da-so-version="footer_signin-mobile-default"> 
+       <a class="lb-btn-p-primary" href="https://console.aws.amazon.com/console/home?nc1=f_ct&amp;src=footer-signin-mobile" role="button"> <span> Sign In to the Console</span> </a> 
+      </div> 
+      <h3 id="Learn_About_AWS" class="lb-txt-none lb-txt-p-chromium lb-tiny-v-margin lb-h3 lb-title"> Learn About AWS</h3> 
+      <ul class="lb-txt-p-chromium lb-ul lb-list-style-none lb-li-micro-v-margin lb-tiny-ul-block" style="margin-bottom:0px;"> 
+       <li><a href="/what-is-aws/?nc1=f_cc" target="_blank">What Is AWS?</a></li> 
+       <li><a href="/what-is-cloud-computing/?nc1=f_cc" target="_blank">What Is Cloud Computing?</a></li> 
+       <li><a href="/devops/what-is-devops/?nc1=f_cc" target="_blank">What Is DevOps?</a></li> 
+       <li><a href="/containers/?nc1=f_cc" target="_blank">What Is a Container?</a></li> 
+       <li><a href="/big-data/datalakes-and-analytics/what-is-a-data-lake/?nc1=f_cc" target="_blank">What Is a Data Lake?</a></li> 
+       <li><a href="/security/?nc1=f_cc" target="_blank">AWS Cloud Security</a></li> 
+       <li><a href="/new/?nc1=f_cc" target="_blank">What's New</a></li> 
+       <li><a href="/blogs/?nc1=f_cc" target="_blank">Blogs</a></li> 
+      </ul> 
+     </div> 
+     <div class="lb-xbcol"> 
+      <h3 id="Resources_for_AWS" class="lb-txt-none lb-txt-p-chromium lb-tiny-v-margin lb-h3 lb-title"> Resources for AWS</h3> 
+      <ul class="lb-txt-p-chromium lb-ul lb-list-style-none lb-li-micro-v-margin lb-tiny-ul-block" style="margin-bottom:0px;"> 
+       <li><a href="/getting-started/?nc1=f_cc" target="_blank">Getting Started</a></li> 
+       <li><a href="/training/?nc1=f_cc" target="_blank">Training and Certification</a></li> 
+       <li><a href="/solutions/?nc1=f_cc" target="_blank">AWS Solutions Portfolio</a></li> 
+       <li><a href="/architecture/?nc1=f_cc" target="_blank">Architecture Center</a></li> 
+       <li><a href="/faqs/?nc1=f_dr" target="_blank">Product and Technical FAQs</a></li> 
+       <li><a href="/resources/analyst-reports/?nc1=f_cc" target="_blank">Analyst Reports</a></li> 
+       <li><a href="/partners/?nc1=f_dr" target="_blank">AWS Partner Network</a></li> 
+      </ul> 
+     </div> 
+     <div class="lb-xbcol"> 
+      <h3 id="Developers_on_AWS" class="lb-txt-none lb-txt-p-chromium lb-tiny-v-margin lb-h3 lb-title"> Developers on AWS</h3> 
+      <ul class="lb-txt-p-chromium lb-ul lb-list-style-none lb-li-micro-v-margin lb-tiny-ul-block" style="margin-bottom:0px;"> 
+       <li><a href="/developer/?nc1=f_dr" target="_blank">Developer Center</a></li> 
+       <li><a href="/developer/tools/?nc1=f_dr" target="_blank">SDKs &amp; Tools</a></li> 
+       <li><a href="/developer/language/python/?nc1=f_dr" target="_blank">Python on AWS</a></li> 
+       <li><a href="/developer/language/java/?nc1=f_dr" target="_blank">Java on AWS</a></li> 
+       <li><a href="/developer/language/php/?nc1=f_cc" target="_blank">PHP on AWS</a></li> 
+       <li><a href="/developer/language/javascript/?nc1=f_dr" target="_blank">Javascript on AWS</a></li> 
+      </ul> 
+     </div> 
+     <div class="lb-xbcol"> 
+      <h3 id="Help" class="lb-txt-none lb-txt-p-chromium lb-tiny-v-margin lb-h3 lb-title"> Help</h3> 
+      <ul class="lb-txt-p-chromium lb-ul lb-list-style-none lb-li-micro-v-margin lb-tiny-ul-block" style="margin-bottom:0px;"> 
+       <li><a href="/contact-us/?nc1=f_m" target="_blank">Contact Us</a></li> 
+       <li><a href="/careers/?nc1=f_hi" target="_blank">AWS Careers</a></li> 
+       <li><a href="https://console.aws.amazon.com/support/home/?nc1=f_dr" target="_blank">File a Support Ticket</a></li> 
+       <li><a href="/premiumsupport/knowledge-center/?nc1=f_dr" target="_blank">Knowledge Center</a></li> 
+       <li><a href="/premiumsupport/?nc1=f_dr" target="_blank">AWS Support Overview</a></li> 
+       <li><a href="/legal/?nc1=f_cc" target="_blank">Legal</a></li> 
+      </ul> 
+      <div class="lb-mbox js-mbox" data-lb-comp="mbox" data-mbox="en_footer-v3_addl-help" data-lb-comp-ignore="true"> 
+      </div> 
+     </div> 
+     <div class="lb-xbcol"> 
+      <div class="lb-mbox js-mbox" data-lb-comp="mbox" data-mbox="en_footer-v3_cta" data-lb-comp-ignore="true"> 
+       <div class="data-attr-wrapper lb-tiny-hide lb-small-show lb-btn" data-da-type="so" data-da-so-type="viewport" data-da-so-language="en" data-da-so-category="monitoring" data-da-so-name="footer_buttons" data-da-so-url="all" data-da-so-version="footer_signup-default"> 
+        <a class="lb-btn-p-primary" href="https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?nc1=f_ct&amp;src=default" role="button"> <span> Create an AWS Account</span> </a> 
+       </div> 
+      </div> 
+      <div class="lb-xb-grid-wrap" style="padding-left:0px; margin-top:20px;"> 
+       <div class="lb-xb-grid lb-row-max-large lb-xb-equal-height lb-snap lb-gutter-collapse lb-vgutter-collapse lb-tiny-xb-auto"> 
+        <div class="lb-xbcol"> 
+         <div class="lb-data-attr-wrapper data-attr-wrapper" data-da-so-category="monitoring" data-da-so-url="all" data-da-so-version="twitter" data-da-so-language="en" data-da-so-name="footer-socials" data-da-type="so" data-da-so-type="viewport"> 
+          <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-txt" style="padding-left:0px; padding-right:12px;" href="https://twitter.com/awscloud" target="_blank" title="Twitter"> <i class="icon-twitter"></i></a> 
+         </div> 
+        </div> 
+        <div class="lb-xbcol"> 
+         <div class="lb-data-attr-wrapper data-attr-wrapper" data-da-so-category="monitoring" data-da-so-url="all" data-da-so-version="facebook" data-da-so-language="en" data-da-so-name="footer-socials" data-da-type="so" data-da-so-type="viewport"> 
+          <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-none-v-margin lb-txt" style="padding-right:12px;" href="https://www.facebook.com/amazonwebservices" target="_blank" title="Facebook"> <i class="icon-facebook"></i></a> 
+         </div> 
+        </div> 
+        <div class="lb-xbcol"> 
+         <div class="lb-data-attr-wrapper data-attr-wrapper" data-da-so-category="monitoring" data-da-so-url="all" data-da-so-version="twitch" data-da-so-language="en" data-da-so-name="footer-socials" data-da-type="so" data-da-so-type="viewport"> 
+          <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-txt" style="padding-right:12px;" href="https://www.twitch.tv/aws" target="_blank" title="Twitch"> <i class="icon-twitch"></i></a> 
+         </div> 
+        </div> 
+        <div class="lb-xbcol"> 
+         <div class="lb-data-attr-wrapper data-attr-wrapper" data-da-so-category="monitoring" data-da-so-url="all" data-da-so-version="aws-podcast" data-da-so-language="en" data-da-so-name="footer-socials" data-da-type="so" data-da-so-type="viewport"> 
+          <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-txt" style="padding-right:12px;" href="https://aws.amazon.com/podcasts/aws-podcast/" target="_blank" title="Podcast"> <i class="icon-podcast"></i></a> 
+         </div> 
+        </div> 
+        <div class="lb-xbcol"> 
+         <div class="lb-data-attr-wrapper data-attr-wrapper" data-da-so-category="monitoring" data-da-so-url="all" data-da-so-version="newsletter" data-da-so-language="en" data-da-so-name="footer-socials" data-da-type="so" data-da-so-type="viewport"> 
+          <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-txt" style="padding-right:12px;" href="https://pages.awscloud.com/communication-preferences?trk=homepage" target="_blank" title="Email"> <i class="icon-envelope-o"></i></a> 
+         </div> 
+        </div> 
+        <div class="lb-xbcol"> 
+         <div class="lb-data-attr-wrapper data-attr-wrapper" data-da-so-category="monitoring" data-da-so-url="all" data-da-so-version="press-releases" data-da-so-language="en" data-da-so-name="footer-socials" data-da-type="so" data-da-so-type="viewport"> 
+          <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-txt" style="padding-right:12px;" href="https://press.aboutamazon.com/press-releases/aws" target="_blank" title="Press Release"> <i class="icon-newspaper-o"></i></a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="lb-txt-normal lb-txt-white lb-txt-14 lb-rtxt" style="color:#eaeded; margin-top:0px;"> 
+       <div>
+         Amazon is an Equal Opportunity Employer: 
+        <i> Minority / Women / Disability / Veteran / Gender Identity / Sexual Orientation / Age.</i> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="lb-none-pad lb-none-v-margin lb-xb-grid-wrap" style="background-color:#242F3E;"> 
+    <div class="lb-xb-grid lb-row-max-large lb-snap lb-tiny-xb-1"> 
+     <div class="lb-xbcol"> 
+      <ul class="lb-txt-p-chromium lb-tiny-iblock lb-none-v-margin lb-ul lb-list-style-none lb-li-micro-v-margin lb-tiny-ul-iblock"> 
+       <li class="lb-txt-bold">Language</li> 
+       <li data-language="ar"><a href="https://aws.amazon.com/ar/?nc1=h_ls">عربي</a></li> 
+       <li data-language="id"><a href="https://aws.amazon.com/id/?nc1=h_ls">Bahasa Indonesia</a></li> 
+       <li data-language="de"><a href="https://aws.amazon.com/de/?nc1=h_ls">Deutsch</a></li> 
+       <li data-language="en"><a href="https://aws.amazon.com/?nc1=h_ls">English</a></li> 
+       <li data-language="es"><a href="https://aws.amazon.com/es/?nc1=h_ls">Espa&ntilde;ol</a></li> 
+       <li data-language="fr"><a href="https://aws.amazon.com/fr/?nc1=h_ls">Fran&ccedil;ais</a></li> 
+       <li data-language="it"><a href="https://aws.amazon.com/it/?nc1=h_ls">Italiano</a></li> 
+       <li data-language="pt"><a href="https://aws.amazon.com/pt/?nc1=h_ls">Portugu&ecirc;s</a></li> 
+       <li data-language="vi"><a href="https://aws.amazon.com/vi/?nc1=f_ls">Tiếng Việt</a></li> 
+       <li data-language="tr"><a href="https://aws.amazon.com/tr/?nc1=h_ls">T&uuml;rk&ccedil;e</a></li> 
+       <li data-language="ru"><a href="https://aws.amazon.com/ru/?nc1=h_ls">Ρусский</a></li> 
+       <li data-language="th"><a href="https://aws.amazon.com/th/?nc1=f_ls">ไทย</a></li> 
+       <li data-language="jp"><a href="https://aws.amazon.com/jp/?nc1=h_ls">日本語</a></li> 
+       <li data-language="ko"><a href="https://aws.amazon.com/ko/?nc1=h_ls">한국어</a></li> 
+       <li data-language="cn"><a href="https://aws.amazon.com/cn/?nc1=h_ls">中文 (简体)</a></li> 
+       <li data-language="tw"><a href="https://aws.amazon.com/tw/?nc1=h_ls">中文 (繁體)</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="lb-none-pad lb-none-v-margin lb-xb-grid-wrap" style="background-color:#EAEDED; padding-top:5px;"> 
+    <div class="lb-xb-grid lb-row-max-large lb-snap lb-tiny-xb-1"> 
+     <div class="lb-xbcol"> 
+      <ul class="lb-txt-p-squid-ink lb-none-v-margin lb-ul lb-list-style-none lb-li-none-v-margin lb-tiny-ul-iblock"> 
+       <li><a href="https://aws.amazon.com/privacy/?nc1=f_pr">Privacy</a></li> 
+       <li>|</li> 
+       <li><a href="https://aws.amazon.com/terms/?nc1=f_pr">Site Terms</a></li> 
+       <li>|</li> 
+       <li>&copy; 2019, Amazon Web Services, Inc. or its affiliates. All rights reserved.</li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <div id="aws-page-end"></div> 
+  <div id="lb-page-end"></div> 
+  <script>require(['jquery', 'scripts']);</script> 
+  <script src="https://a0.awsstatic.com/pre-offer/1.0.11/content/sitePriv/main.js" async=""></script> 
+  <script src="https://a0.awsstatic.com/da/js/1.0.38/aws-da.js"></script> 
+  <!-- SiteCatalyst code version: H.25.1. Copyright 1996-2012 Adobe, Inc. All Rights Reserved --> 
+  <script><!--
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script> 
+  <script><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script> 
+  <noscript> 
+   <img src="//amazonwebservices.d2.sc.omtrdc.net/b/ss/awsamazonalldev2/1/H.25.1--NS/0" height="1" width="1" border="0" alt="" /> 
+  </noscript> 
+  <!--/DO NOT REMOVE/--> 
+  <!-- End SiteCatalyst code version: H.25.1. --> 
+  <!--[if lte IE 9]>
+  <script>
+    jQuery = $ = undefined;
+  </script>
+  <p class="deprecated-browser-support-message">
+    You are using an <strong>outdated</strong> browser. Please upgrade to Internet Explorer 11 or another modern browser to improve your experience.<img src="https://fls-na.amazon.com/1/action-impressions/1/OE/aws-mktg/action/awsm_:comp_DeprecatedBrowser@v=1:u=c?dataset=LIVE:PROD&instance=PUB&client=dsk&marketplaceId=A12QK8IU0H0XW5&requestId=ABCDEFGHIJKLMNOPQRST&session=123-1234567-1234567"
+           alt="deprecated-browser pixel tag" />
+      </p>
+<![endif]--> 
+  <script>
+  if (document.documentMode === 10) {
+    var msg = 'You are using an <strong>outdated</strong> browser. Please upgrade to Internet Explorer 11 or another modern browser to improve your experience.';
+    $('html').addClass('unsupported-version');
+    $(document.body).append('<p class="deprecated-browser-support-message">' + msg + '<img src="https://fls-na.amazon.com/1/action-impressions/1/OE/aws-mktg/action/awsm_:comp_DeprecatedBrowser@v=1:u=c?dataset=LIVE:PROD&instance=PUB&client=dsk&marketplaceId=A12QK8IU0H0XW5&requestId=ABCDEFGHIJKLMNOPQRST&session=123-1234567-1234567" alt="deprecated-browser pixel tag" /></p>');
+    jQuery = $ = undefined;
+  }
+</script> 
+  <!-- updated_at: 2019-07-23T22:07:22.811-0700 -->  
+ </body>
+</html>
