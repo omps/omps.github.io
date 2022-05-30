@@ -6,3 +6,5 @@ _site
 *.md#
 ^.#
 ^#
+.Gemfile.lock
+*.~undo-tree~
