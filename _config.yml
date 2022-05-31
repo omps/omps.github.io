@@ -6,7 +6,8 @@ description: "I am Om
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl:
-google_analytics: 'UA-7006734-1'
+#google_analytics: 'UA-7006734-1'
+google_analytics: '317226465'
 disqus: 'omps-in'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
@@ -18,7 +19,7 @@ authors:
     name: omps
     display_name: omps
     gravatar: 3f6e34f191fecf56d95f0297fbb5b705
-    email: contact@omps.in
+    email: omps at omps dot in
     web: https://www.omps.in
     twitter: https://twitter.com/ohgnis
     description: "Author at omps, My blogging journey."
