@@ -4,7 +4,7 @@ title: "GPT Prompts collection"
 author: Om
 categories: [ GPT ]
 image:
-date: 
+date: 2024-08-13
 rating: 3
 published: true
 ---
