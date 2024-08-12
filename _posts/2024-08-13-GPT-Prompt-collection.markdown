@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Github Apple Ipad and Markdown" 
+title: "GPT Prompts collection" 
 author: Om
-categories: [ Jekyll ]
+categories: [ GPT ]
 image:
 date: 
 rating: 3
-published: 
+published: true
 ---
 
 LinkedIn Funnel to get warm leads 👇🏻
