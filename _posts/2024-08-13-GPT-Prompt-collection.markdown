@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Github Apple Ipad and Markdown" 
+author: Om
+categories: [ Jekyll ]
+image:
+date: 
+rating: 3
+published: 
+---
+
 LinkedIn Funnel to get warm leads 👇🏻
 
 1. Create sales assets
