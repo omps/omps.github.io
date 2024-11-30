@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2018-05-12-about-bundler.md",
+                "file": "_posts/2019-06-23-github-pages.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2018-05-12-about-bundler"
+              "title": "2019-06-23-github-pages"
             }
           },
           {
@@ -29,14 +29,13 @@
               "state": {
                 "file": "_posts/2024-11-30-github-obsidian-android.md.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "2024-11-30-github-obsidian-android.md"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,9 +157,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0947484246e2b453",
+  "active": "d4f27ed942e47c69",
   "lastOpenFiles": [
-    "_posts/2018-05-12-about-bundler.md",
-    "_posts/2024-11-30-github-obsidian-android.md.md"
+    "_posts/2024-11-30-github-obsidian-android.md.md",
+    "_posts/2019-06-23-github-pages.md",
+    "_posts/2021-06-23-emacs-jekyll-windows-blog-setup.md",
+    "_posts/2018-05-12-about-bundler.md"
   ]
 }

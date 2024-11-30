@@ -7,7 +7,9 @@ categories:
 image: 
 rating: 3
 published: true
+date: "2024-11-30"
 ---
+
 This is my obsidian blog pipeline.
 
 Requirements
