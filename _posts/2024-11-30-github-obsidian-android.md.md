@@ -14,7 +14,7 @@ This is my obsidian blog pipeline.
 
 Requirements
 1. obsidian to blog
-2. hugo to publish
+2. Jekyll to publish
 3. github to version control and source control
 4. github to publish static pages
 
@@ -24,8 +24,7 @@ I installed termux and using termux has configured and compiled all the tools.
 
 In Termux I have installed
 - Git
-- Golang
-- Hugo
+- Jekyll
 
 Installed hugo site using 
 $ hugo new site <site name for my blog> --format yaml
