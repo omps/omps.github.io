@@ -11,3 +11,8 @@ date: "2025-03-03"
 ---
 
 We are in a trainings where we are learning building with CI/CD pipelines. This is is quite interesting to know we can do so many things with CI/Chave knpown all tehjehtoime, CI/CD is interesting but never rea;osed thit hass so much of potential.
+
+Well despite the fact i can do so much with github and gitlab. I am still not using it. It is such a pity.
+
+Regards,
+Om
